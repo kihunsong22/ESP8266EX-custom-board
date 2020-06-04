@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -233,6 +233,22 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" locally_modified="yes">
+<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="0" y="1.197" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.343" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/5" type="model">
@@ -248,6 +264,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model">
+<description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
+<packageinstances>
+<packageinstance name="R0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -298,7 +320,53 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-4.32" y1="-0.6" x2="-4.62" y2="-0.3" width="0.01" layer="46" curve="-90"/>
 <text x="0" y="-5.62" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
+<package name="SMA-END-LAUNCH-2" urn="urn:adsk.eagle:footprint:6190/1" locally_modified="yes">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="3.85" x2="4.1" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="3.85" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<smd name="1" x="2.1154" y="0" dx="4.191" dy="1.778" layer="1"/>
+<smd name="G@1" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@2" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@4" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="16"/>
+<smd name="G@3" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="J502-ND-142-0711-821/826" urn="urn:adsk.eagle:package:6224/1" type="box">
+<description>SMA 50 Ohm Board Thickness 0.062 Inch, End Launch Jack Receptacle
+Johnson Components
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<packageinstances>
+<packageinstance name="SMA-END-LAUNCH-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="angrypig7-IC">
 <packages>
@@ -363,6 +431,54 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="2.425" y1="-2.64" x2="-2.425" y2="-2.64" width="0.2" layer="21"/>
 <wire x1="-2.425" y1="-2.64" x2="-2.425" y2="2.64" width="0.2" layer="21"/>
 <wire x1="-4.425" y1="2.453" x2="-2.775" y2="2.453" width="0.2" layer="21"/>
+</package>
+<package name="ESP01-PINOUT">
+<description>ESP8266 Module 01</description>
+<pad name="GND" x="-3.825" y="1.3475" drill="0.8" shape="square" rot="R270"/>
+<pad name="RX" x="3.795" y="1.3475" drill="0.8" shape="square" rot="R270"/>
+<pad name="GPIO2" x="-1.285" y="1.3475" drill="0.8" rot="R270"/>
+<pad name="GPIO0" x="1.255" y="1.3475" drill="0.8" rot="R270"/>
+<pad name="RST" x="1.255" y="-1.1925" drill="0.8" rot="R270"/>
+<pad name="CH_PD" x="-1.285" y="-1.1925" drill="0.8" rot="R270"/>
+<pad name="TX" x="-3.825" y="-1.1925" drill="0.8" rot="R270"/>
+<pad name="VCC" x="3.795" y="-1.1925" drill="0.8" rot="R270"/>
+<wire x1="-5.095" y1="4.197" x2="-5.095" y2="-2.526" width="0.127" layer="21"/>
+<wire x1="-5.095" y1="-2.526" x2="5.1285" y2="-2.526" width="0.127" layer="21"/>
+<wire x1="5.1285" y1="-2.526" x2="5.1285" y2="4.197" width="0.127" layer="21"/>
+<text x="0" y="3.3" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;Name</text>
+<wire x1="-4.572" y1="2.413" x2="-2.794" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="2.413" x2="-0.254" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="2.413" x2="2.286" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="2.413" x2="4.572" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="2.159" x2="4.826" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-0.127" x2="4.826" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="-2.159" x2="2.794" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-2.159" x2="0.254" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-2.286" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-2.159" x2="-4.572" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-1.905" x2="-4.826" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="0.127" x2="-4.826" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="2.413" x2="4.826" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-1.905" x2="4.572" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-2.159" x2="-4.826" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="2.159" x2="-4.572" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="2.413" x2="2.54" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.159" x2="2.286" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="2.413" x2="0" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.159" x2="-0.254" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="2.413" x2="-2.54" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.159" x2="-2.794" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-0.127" x2="4.572" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="0.127" x2="4.826" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="-2.159" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.286" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-2.159" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.254" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-2.159" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.794" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-0.381" x2="-4.572" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.127" x2="-4.826" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="-5.095" y1="4.197" x2="5.1285" y2="4.197" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -601,17 +717,17 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="15" y="9.906" smashed="yes">
-<attribute name="LCSC" value="C52923" x="15" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15" y="11.149" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="POPULARITY" value="18" x="40.4" y="-9.144" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="40.4" y="-9.144" size="1.778" layer="27" display="off"/>
+<element name="C1" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="9.813" y="9.398" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C52923" x="9.813" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="9.781" y="10.525" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="18" x="-15.587" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-15.587" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="6.731" y="2.54" smashed="yes" rot="R180">
-<attribute name="LCSC" value="C52923" x="6.731" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.731" y="1.297" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="POPULARITY" value="18" x="-8.509" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-8.509" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C2" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="5.842" y="2.286" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C52923" x="5.842" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="5.842" y="1.043" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="18" x="-9.398" y="21.336" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-9.398" y="21.336" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="7.747" y="14.732" smashed="yes" rot="R90">
 <attribute name="LCSC" value="C15525" x="7.747" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
@@ -625,38 +741,39 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="25" x="18.034" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="18.034" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C9" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="13.843" y="24.892" smashed="yes" rot="R90">
-<attribute name="LCSC" value="C52923" x="13.843" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.6" y="24.892" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="POPULARITY" value="18" x="32.893" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="32.893" y="54.102" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C12" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="22.606" y="26.035" smashed="yes">
+<attribute name="LCSC" value="C52923" x="22.606" y="26.035" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.606" y="27.278" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="POPULARITY" value="18" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="9.906" y="22.352" smashed="yes">
-<attribute name="LCSC" value="C52923" x="9.906" y="22.352" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.906" y="23.595" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="POPULARITY" value="18" x="25.146" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="25.146" y="-1.778" size="1.778" layer="27" display="off"/>
+<element name="C6" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="3.81" y="21.717" smashed="yes">
+<attribute name="LCSC" value="C52923" x="3.81" y="21.717" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="3.81" y="22.96" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="POPULARITY" value="18" x="19.05" y="-2.413" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="19.05" y="-2.413" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="angrypig7-Connectors" package="USB-TYPE-C-31-M-17" value="USB-TYPE-C-31-M-17" x="15" y="6.65" smashed="yes">
 <attribute name="LCSC" value="C283541" x="15" y="6.65" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15" y="1.03" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="U1" library="angrypig7-IC" package="ESP8266EX" value="ESP8266EX" x="13.716" y="19.304" smashed="yes">
-<attribute name="LCSC" value="C77967" x="13.716" y="19.304" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.716" y="22.458" size="0.6096" layer="21" font="vector" ratio="15" align="center"/>
+<element name="U1" library="angrypig7-IC" package="ESP8266EX" value="ESP8266EX" x="15" y="19.812" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C77967" x="15" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="17.815" y="22.733" size="0.6096" layer="21" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="U2" library="angrypig7-IC-Power" package="SOT-223" value="AMS1117_SOT223" x="5.334" y="7.747" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.334" y="8.509" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
+<element name="U2" library="angrypig7-IC-Power" package="SOT-223" value="AMS1117_SOT223" x="4.445" y="7.493" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C6186" x="4.445" y="7.493" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.445" y="8.255" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="IC1" library="angrypig7-IC" package="SOIC-8_208MIL" value="W25Q32JVSSIQ" x="22.987" y="19.812" smashed="yes" rot="R180">
-<attribute name="LCSC" value="C179173" x="22.987" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.987" y="16.256" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="IC1" library="angrypig7-IC" package="SOIC-8_208MIL" value="W25Q32JVSSIQ" x="15.169" y="11.627" smashed="yes">
+<attribute name="LCSC" value="C179173" x="15.169" y="11.627" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.831" y="15.102" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C7" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="20.193" y="16.256" smashed="yes">
-<attribute name="LCSC" value="C52923" x="20.193" y="16.256" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.193" y="14.959" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="POPULARITY" value="18" x="21.844" y="16.256" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="21.844" y="16.256" size="1.778" layer="27" display="off"/>
+<element name="C7" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="19.103" y="14.757" smashed="yes">
+<attribute name="LCSC" value="C52923" x="19.103" y="14.757" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="21.203" y="14.727" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="POPULARITY" value="18" x="20.754" y="14.757" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="20.754" y="14.757" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="angrypig7-RCL" package="SMC_B" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF" x="2.286" y="14.732" smashed="yes" rot="R90">
 <attribute name="LCSC" value="C16133" x="2.286" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
@@ -664,10 +781,59 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="25" x="2.286" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="2.286" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Y2" library="angrypig7-Clocks" package="CRYSTAL-SMD-3.2X2.5MM" value="CRYSTAL-26MHZ" x="18.542" y="25.527" smashed="yes">
-<attribute name="LCSC" value="C91747" x="18.542" y="25.527" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.542" y="27.051" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<element name="Y1" library="angrypig7-Clocks" package="CRYSTAL-SMD-3.2X2.5MM" value="26Mhz" x="20.32" y="19.177" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C91747" x="20.32" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.479" y="19.177" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
+<element name="C8" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF" x="20.32" y="16.383" smashed="yes">
+<attribute name="LCSC" value="C1554" x="21.971" y="16.383" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.19" y="16.383" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="POPULARITY" value="18" x="21.971" y="16.383" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="21.971" y="16.383" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C9" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF" x="20.32" y="21.971" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C1554" x="19.177" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22.19" y="21.971" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="POPULARITY" value="18" x="19.177" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="19.177" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C11" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="10.668" y="22.098" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C52923" x="10.668" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="9.433" y="22.098" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="POPULARITY" value="18" x="10.668" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="10.668" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="X1" library="angrypig7-Connectors" package="SMA-END-LAUNCH-2" package3d_urn="urn:adsk.eagle:package:6224/1" value="SMA" x="12.319" y="29.845" smashed="yes" rot="R270"/>
+<element name="C10" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="19.685" y="26.035" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C52923" x="19.685" y="24.384" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="19.65" y="28.575" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="POPULARITY" value="18" x="19.685" y="24.384" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="19.685" y="24.384" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C13" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="18.542" y="26.035" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C15525" x="18.542" y="26.035" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.507" y="28.575" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="POPULARITY" value="18" x="18.542" y="26.035" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="18.542" y="26.035" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R1" library="angrypig7-RCL" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="" x="16.602" y="14.822" smashed="yes">
+<attribute name="NAME" x="16.602" y="15.919" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="POPULARITY" value="34" x="16.602" y="14.822" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="16.602" y="14.822" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.602" y="13.479" size="1.27" layer="27" font="vector" ratio="15" align="center"/>
+</element>
+<element name="R2" library="angrypig7-RCL" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k" x="20.402" y="23.293" smashed="yes">
+<attribute name="NAME" x="20.402" y="24.49" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="POPULARITY" value="34" x="20.402" y="23.293" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="20.402" y="23.293" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="5.6pF" x="14.633" y="24.521" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.398" y="24.521" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="POPULARITY" value="18" x="14.633" y="24.521" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="14.633" y="24.521" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="15.938" y="24.521" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="U3" library="angrypig7-IC" package="ESP01-PINOUT" value="ESP01_PINOUT" x="27.4" y="8.7" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="5V" class="1">
@@ -677,9 +843,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U2" pad="3"/>
 <contactref element="C2" pad="1"/>
 <wire x1="13.48" y1="7.05" x2="16.52" y2="7.05" width="0" layer="19" extent="1-1"/>
-<wire x1="14.35" y1="9.906" x2="13.48" y2="7.05" width="0" layer="19" extent="1-1"/>
-<wire x1="7.634" y1="4.647" x2="13.48" y2="7.05" width="0" layer="19" extent="1-1"/>
-<wire x1="7.381" y1="2.54" x2="7.634" y2="4.647" width="0" layer="19" extent="1-1"/>
+<wire x1="10.463" y1="9.398" x2="13.48" y2="7.05" width="0" layer="19" extent="1-1"/>
+<wire x1="6.745" y1="4.393" x2="10.463" y2="9.398" width="0" layer="19" extent="1-1"/>
+<wire x1="6.492" y1="2.286" x2="6.745" y2="4.393" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="J1" pad="GND"/>
@@ -698,7 +864,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="C2" pad="2"/>
 <contactref element="C4" pad="-"/>
 <contactref element="U1" pad="GND"/>
-<contactref element="C9" pad="2"/>
+<contactref element="C12" pad="2"/>
 <contactref element="C6" pad="2"/>
 <polygon width="0.2032" layer="1">
 <vertex x="0" y="0"/>
@@ -715,33 +881,175 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="IC1" pad="4"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C5" pad="-"/>
-<wire x1="10.556" y1="22.352" x2="13.716" y2="19.304" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="2.85" x2="10.68" y2="2.85" width="0" layer="19" extent="1-16"/>
+<contactref element="Y1" pad="2"/>
+<contactref element="Y1" pad="4"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C13" pad="2"/>
+<contactref element="R2" pad="1"/>
+<contactref element="X1" pad="G@4"/>
+<contactref element="X1" pad="G@2"/>
+<contactref element="X1" pad="G@3"/>
+<contactref element="X1" pad="G@1"/>
+<contactref element="U3" pad="GND"/>
+<wire x1="19.445" y1="18.002" x2="15" y2="19.812" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V" class="1">
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="4"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="+"/>
-<contactref element="U1" pad="VDDA"/>
 <contactref element="U1" pad="VDDD"/>
 <contactref element="U1" pad="VDDA$2"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C9" pad="1"/>
+<contactref element="C12" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="C7" pad="1"/>
 <contactref element="C5" pad="+"/>
-<wire x1="13.466" y1="21.704" x2="13.843" y2="24.242" width="0" layer="19" extent="1-1"/>
-<wire x1="12.966" y1="21.704" x2="13.466" y2="21.704" width="0" layer="19" extent="1-1"/>
-<wire x1="11.316" y1="21.054" x2="12.966" y2="21.704" width="0" layer="19" extent="1-1"/>
-<wire x1="9.256" y1="22.352" x2="11.316" y2="21.054" width="0" layer="19" extent="1-1"/>
-<wire x1="19.387" y1="17.907" x2="13.466" y2="21.704" width="0" layer="19" extent="1-1"/>
-<wire x1="19.543" y1="16.256" x2="19.387" y2="17.907" width="0" layer="19" extent="1-1"/>
-<wire x1="7.747" y1="14.082" x2="11.316" y2="21.054" width="0" layer="19" extent="1-1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C11" pad="1"/>
+<contactref element="U1" pad="VDDPST$2"/>
+<contactref element="U1" pad="VDDPST"/>
+<contactref element="U1" pad="VDDA"/>
+<contactref element="U1" pad="VDD3P3"/>
+<contactref element="U1" pad="VDD3P3$2"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C13" pad="1"/>
+<contactref element="U3" pad="VCC"/>
+<wire x1="19.685" y1="26.685" x2="21.956" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="18.542" y1="26.685" x2="19.685" y2="26.685" width="0" layer="19" extent="1-1"/>
+<wire x1="16.75" y1="22.212" x2="18.542" y2="26.685" width="0" layer="19" extent="1-1"/>
+<wire x1="15.75" y1="22.212" x2="16.75" y2="22.212" width="0" layer="19" extent="1-1"/>
+<wire x1="15.25" y1="22.212" x2="15.75" y2="22.212" width="0" layer="19" extent="1-1"/>
+<wire x1="17.4" y1="20.562" x2="16.75" y2="22.212" width="0" layer="19" extent="1-1"/>
+<wire x1="17.4" y1="20.062" x2="17.4" y2="20.562" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6" y1="20.562" x2="15.25" y2="22.212" width="0" layer="19" extent="1-1"/>
+<wire x1="10.668" y1="21.448" x2="12.6" y2="20.562" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="17.412" x2="12.6" y2="20.562" width="0" layer="19" extent="1-1"/>
+<wire x1="18.453" y1="14.757" x2="17.4" y2="20.062" width="0" layer="19" extent="1-1"/>
+<wire x1="18.769" y1="13.532" x2="18.453" y2="14.757" width="0" layer="19" extent="1-1"/>
+<wire x1="7.747" y1="14.082" x2="13.25" y2="17.412" width="0" layer="19" extent="1-1"/>
 <wire x1="5.334" y1="13.232" x2="7.747" y2="14.082" width="0" layer="19" extent="1-1"/>
-<wire x1="5.334" y1="10.847" x2="5.334" y2="13.232" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="10.593" x2="5.334" y2="13.232" width="0" layer="19" extent="1-1"/>
 <wire x1="2.286" y1="13.232" x2="5.334" y2="13.232" width="0" layer="19" extent="1-1"/>
-<wire x1="5.334" y1="4.647" x2="5.334" y2="10.847" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="4.393" x2="4.445" y2="10.593" width="0" layer="19" extent="1-1"/>
+<wire x1="3.16" y1="21.717" x2="10.668" y2="21.448" width="0" layer="19" extent="1-1"/>
+<wire x1="28.5925" y1="12.495" x2="18.769" y2="13.532" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U1" pad="XTAL_OUT"/>
+<contactref element="Y1" pad="1"/>
+<contactref element="C8" pad="2"/>
+<wire x1="20.97" y1="16.383" x2="21.195" y2="18.002" width="0" layer="19" extent="1-1"/>
+<wire x1="17.4" y1="19.062" x2="21.195" y2="18.002" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="Y1" pad="3"/>
+<contactref element="C9" pad="2"/>
+<contactref element="U1" pad="XTAL_IN"/>
+<wire x1="19.67" y1="21.971" x2="19.445" y2="20.352" width="0" layer="19" extent="1-1"/>
+<wire x1="17.4" y1="19.562" x2="19.445" y2="20.352" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CHIP_EN">
+<contactref element="U1" pad="CHIP_EN"/>
+<contactref element="U3" pad="CH_PD"/>
+<wire x1="28.5925" y1="7.415" x2="13.75" y2="22.212" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_IN">
+<contactref element="U1" pad="TOUT"/>
+</signal>
+<signal name="GPIO16">
+<contactref element="U1" pad="XPD_DCDC"/>
+</signal>
+<signal name="GPIO14">
+<contactref element="U1" pad="MTMS"/>
+</signal>
+<signal name="GPIO12">
+<contactref element="U1" pad="MTDI"/>
+</signal>
+<signal name="GPIO13">
+<contactref element="U1" pad="MTCK"/>
+</signal>
+<signal name="GPIO15">
+<contactref element="U1" pad="MTDO"/>
+</signal>
+<signal name="GPIO2">
+<contactref element="U1" pad="GPIO2"/>
+<contactref element="U3" pad="GPIO2"/>
+<wire x1="12.6" y1="19.062" x2="26.0525" y2="7.415" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GPIO0">
+<contactref element="U1" pad="GPIO0"/>
+<contactref element="U3" pad="GPIO0"/>
+<wire x1="12.6" y1="18.562" x2="26.0525" y2="9.955" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GPIO4">
+<contactref element="U1" pad="GPIO4"/>
+</signal>
+<signal name="SD_CLK">
+<contactref element="R1" pad="2"/>
+<contactref element="IC1" pad="6"/>
+<wire x1="18.769" y1="10.992" x2="17.102" y2="14.822" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R1" pad="1"/>
+<contactref element="U1" pad="SD_CLK"/>
+<wire x1="16.102" y1="14.822" x2="15.25" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GPIO5">
+<contactref element="U1" pad="GPOIO5"/>
+</signal>
+<signal name="SD_D1">
+<contactref element="U1" pad="SD_DATA_1"/>
+<contactref element="IC1" pad="5"/>
+<wire x1="18.769" y1="9.722" x2="16.25" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SD_D0">
+<contactref element="U1" pad="SD_DATA_0"/>
+<contactref element="IC1" pad="2"/>
+<wire x1="11.569" y1="12.262" x2="15.75" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SD_CMD">
+<contactref element="U1" pad="SD_CMD"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="11.569" y1="13.532" x2="14.75" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SD_D3">
+<contactref element="U1" pad="SD_DATA_3"/>
+<contactref element="IC1" pad="3"/>
+<wire x1="11.569" y1="10.992" x2="14.25" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SD_D2">
+<contactref element="U1" pad="SD_DATA_2"/>
+<contactref element="IC1" pad="7"/>
+<wire x1="18.769" y1="12.262" x2="13.75" y2="17.412" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="URXD">
+<contactref element="U1" pad="U0RXD"/>
+<contactref element="U3" pad="RX"/>
+<wire x1="17.4" y1="18.062" x2="26.0525" y2="12.495" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UTXD">
+<contactref element="U1" pad="U0TXD"/>
+<contactref element="U3" pad="TX"/>
+<wire x1="28.5925" y1="4.875" x2="17.4" y2="18.562" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RST">
+<contactref element="U1" pad="EXT_RSTB"/>
+<contactref element="U3" pad="RST"/>
+<wire x1="28.5925" y1="9.955" x2="17.4" y2="21.562" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U1" pad="RES12K"/>
+<contactref element="R2" pad="2"/>
+<wire x1="17.4" y1="21.062" x2="20.902" y2="23.293" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="U1" pad="LNA"/>
+</signal>
+<signal name="N$6">
+<contactref element="X1" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
