@@ -1,0 +1,18 @@
+# Files that generally should be ignored
+.git/
+Thumbs.db
+.idea/
+.vscode
+workspace.xml
+
+# EAGLE temporary files
+*.b##
+*.s##
+*.b#[0-9]
+*.s#[0-9]
+*.l#[0-9]
+board_[0-9][0-9].job
+board_[0-9][0-9].pro
+
+# Project specific files
+참고자료/
