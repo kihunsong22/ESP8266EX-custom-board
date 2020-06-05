@@ -5023,22 +5023,6 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="SMC_A" urn="urn:adsk.eagle:footprint:25479/1">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
-<smd name="+" x="-1.5" y="0" dx="1.6" dy="1.4" layer="1"/>
-<smd name="-" x="1.5" y="0" dx="1.6" dy="1.4" layer="1" rot="R180"/>
-<text x="-1.6" y="0.975" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.6" x2="-1.4" y2="0.6" layer="51"/>
-<rectangle x1="1.4" y1="-0.6" x2="1.6" y2="0.6" layer="51" rot="R180"/>
-<rectangle x1="-1.45" y1="-0.75" x2="-0.8" y2="0.75" layer="51"/>
-</package>
 <package name="SMC_Z" urn="urn:adsk.eagle:footprint:25480/1">
 <description>&lt;b&gt;Chip Capacitor&lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
 Siemens Matsushita Components B 45 194&lt;br&gt;
@@ -5075,49 +5059,17 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
 Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.1016" layer="51"/>
 <wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.1016" layer="51"/>
 <wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.1016" layer="51"/>
-<smd name="+" x="-1.5" y="0" dx="1.6" dy="2.4" layer="1"/>
-<smd name="-" x="1.5" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
-<text x="0" y="2.205" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-2.24" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-1.1" x2="-1.55" y2="1.1" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.1016" layer="51"/>
+<smd name="+" x="1.5" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<smd name="-" x="-1.5" y="0" dx="1.6" dy="2.4" layer="1"/>
+<text x="0" y="-2.205" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="2.24" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center">&gt;VALUE</text>
 <rectangle x1="1.55" y1="-1.1" x2="1.75" y2="1.1" layer="51" rot="R180"/>
-<rectangle x1="-1.6" y1="-1.35" x2="-0.95" y2="1.35" layer="51"/>
-</package>
-<package name="SMC_C" urn="urn:adsk.eagle:footprint:25483/1">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-2.85" y1="1.55" x2="2.85" y2="1.55" width="0.1016" layer="51"/>
-<wire x1="2.85" y1="1.55" x2="2.85" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="2.85" y1="-1.55" x2="-2.85" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="-2.85" y1="-1.55" x2="-2.85" y2="1.55" width="0.1016" layer="51"/>
-<smd name="+" x="-2.5" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="-" x="2.5" y="0" dx="2.4" dy="2.4" layer="1" rot="R180"/>
-<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3" y1="-1.1" x2="-2.8" y2="1.1" layer="51"/>
-<rectangle x1="2.8" y1="-1.1" x2="3" y2="1.1" layer="51" rot="R180"/>
-<rectangle x1="-2.85" y1="-1.55" x2="-1.9" y2="1.55" layer="51"/>
-</package>
-<package name="SMC_D" urn="urn:adsk.eagle:footprint:25484/1">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
-<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
-<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
-<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
-<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+<rectangle x1="-1.75" y1="-1.1" x2="-1.55" y2="1.1" layer="51"/>
+<rectangle x1="0.95" y1="-1.35" x2="1.6" y2="1.35" layer="51" rot="R180"/>
 </package>
 <package name="SMC_E" urn="urn:adsk.eagle:footprint:25485/1">
 <description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
@@ -5795,6 +5747,54 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
+</package>
+<package name="SMC_A" urn="urn:adsk.eagle:footprint:25479/1" locally_modified="yes">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
+<smd name="+" x="1.5" y="0" dx="1.6" dy="1.4" layer="1" rot="R180"/>
+<smd name="-" x="-1.5" y="0" dx="1.6" dy="1.4" layer="1"/>
+<text x="0" y="-1.483" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="1.492" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center">&gt;VALUE</text>
+<rectangle x1="1.4" y1="-0.6" x2="1.6" y2="0.6" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.4" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.75" x2="1.45" y2="0.75" layer="51" rot="R180"/>
+</package>
+<package name="SMC_C" urn="urn:adsk.eagle:footprint:25483/1" locally_modified="yes">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-2.85" y1="1.55" x2="2.85" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="1.55" x2="2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="-1.55" x2="-2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.85" y1="-1.55" x2="-2.85" y2="1.55" width="0.1016" layer="51"/>
+<smd name="+" x="-2.5" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="-" x="2.5" y="0" dx="2.4" dy="2.4" layer="1" rot="R180"/>
+<text x="0" y="2.286" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.8" y2="1.1" layer="51"/>
+<rectangle x1="2.8" y1="-1.1" x2="3" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-2.85" y1="-1.55" x2="-1.9" y2="1.55" layer="51"/>
+</package>
+<package name="SMC_D" urn="urn:adsk.eagle:footprint:25484/1" locally_modified="yes">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
+<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
+<text x="0" y="2.921" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
+<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
+<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -6744,14 +6744,6 @@ grid 2.54 mm, diameter 6 mm</description>
 <packageinstance name="E2,5-6E"/>
 </packageinstances>
 </package3d>
-<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/3" type="model">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_A"/>
-</packageinstances>
-</package3d>
 <package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/3" type="model">
 <description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194
@@ -6774,22 +6766,6 @@ Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
 <packageinstances>
 <packageinstance name="SMC_B"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/2" type="model">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_C"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/2" type="model">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_D"/>
 </packageinstances>
 </package3d>
 <package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/2" type="model">
@@ -7096,6 +7072,30 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <packageinstance name="R0201"/>
 </packageinstances>
 </package3d>
+<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/3" type="model">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_A"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/2" type="model">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_C"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/2" type="model">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_D"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C-EU">
@@ -7109,16 +7109,16 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <pin name="2" x="0" y="-3.81" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="CPOL">
-<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
-<text x="1.143" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
-<text x="1.143" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="-1.524" y1="0.381" x2="1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.381" x2="1.524" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.254" layer="94"/>
+<text x="1.143" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="1.6764" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-3.3274" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="1.651" y2="-0.381" layer="94"/>
+<pin name="-" x="0" y="-3.81" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="3.81" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
@@ -7138,7 +7138,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="C-NON-POL" prefix="C" uservalue="yes">
-<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -7287,7 +7286,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </spice>
 </deviceset>
 <deviceset name="C-POLARIZED" prefix="C" uservalue="yes">
-<description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL" x="0" y="0"/>
 </gates>
@@ -9866,7 +9864,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </spice>
 </deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -10019,21 +10016,21 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <package name="SOIC-8_208MIL">
 <description>&lt;b&gt;W25Q32JVSSIQ TR-&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-3.6" y="1.905" dx="1.65" dy="0.65" layer="1"/>
-<smd name="2" x="-3.6" y="0.635" dx="1.65" dy="0.65" layer="1"/>
-<smd name="3" x="-3.6" y="-0.635" dx="1.65" dy="0.65" layer="1"/>
-<smd name="4" x="-3.6" y="-1.905" dx="1.65" dy="0.65" layer="1"/>
-<smd name="5" x="3.6" y="-1.905" dx="1.65" dy="0.65" layer="1"/>
-<smd name="6" x="3.6" y="-0.635" dx="1.65" dy="0.65" layer="1"/>
-<smd name="7" x="3.6" y="0.635" dx="1.65" dy="0.65" layer="1"/>
-<smd name="8" x="3.6" y="1.905" dx="1.65" dy="0.65" layer="1"/>
-<text x="0" y="3.556" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-3.556" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-<wire x1="-2.425" y1="2.64" x2="2.425" y2="2.64" width="0.2" layer="21"/>
-<wire x1="2.425" y1="2.64" x2="2.425" y2="-2.64" width="0.2" layer="21"/>
-<wire x1="2.425" y1="-2.64" x2="-2.425" y2="-2.64" width="0.2" layer="21"/>
-<wire x1="-2.425" y1="-2.64" x2="-2.425" y2="2.64" width="0.2" layer="21"/>
-<wire x1="-4.425" y1="2.453" x2="-2.775" y2="2.453" width="0.2" layer="21"/>
+<smd name="1" x="-1.905" y="-3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="3.6" dx="1.65" dy="0.65" layer="1" rot="R90"/>
+<text x="-3.556" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<text x="3.556" y="0" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-2.64" y1="-2.425" x2="-2.64" y2="2.425" width="0.2" layer="21"/>
+<wire x1="-2.64" y1="2.425" x2="2.64" y2="2.425" width="0.2" layer="21"/>
+<wire x1="2.64" y1="2.425" x2="2.64" y2="-2.425" width="0.2" layer="21"/>
+<wire x1="2.64" y1="-2.425" x2="-2.64" y2="-2.425" width="0.2" layer="21"/>
+<wire x1="-2.453" y1="-4.425" x2="-2.453" y2="-2.775" width="0.2" layer="21"/>
 </package>
 <package name="SOIC16">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
@@ -11179,19 +11176,19 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <packages>
 <package name="SOT-23-3">
 <description>SOT23-3</description>
-<wire x1="0.65" y1="-1.5" x2="-0.6604" y2="-1.5" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="-1.5" x2="-0.6604" y2="1.5" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="1.5" x2="0.65" y2="1.5" width="0.1524" layer="51"/>
-<wire x1="0.65" y1="1.5" x2="0.65" y2="-1.5" width="0.1524" layer="51"/>
-<wire x1="0.65" y1="0.7" x2="0.65" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="0.65" y1="1.5" x2="-0.4" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="0.65" y1="-0.7" x2="0.65" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="0.65" y1="-1.5" x2="-0.4" y2="-1.5" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="0.95" dx="0.8" dy="0.9" layer="1" rot="R270"/>
-<smd name="2" x="-1" y="-0.95" dx="0.8" dy="0.9" layer="1" rot="R270"/>
-<smd name="3" x="1" y="0" dx="0.8" dy="0.9" layer="1" rot="R270"/>
-<text x="0" y="2.205" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-2.205" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<wire x1="-0.65" y1="1.5" x2="0.6604" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="1.5" x2="0.6604" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="-1.5" x2="-0.65" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-0.65" y1="-1.5" x2="-0.65" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-0.65" y1="-0.7" x2="-0.65" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-0.65" y1="-1.5" x2="0.4" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-0.65" y1="0.7" x2="-0.65" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-0.65" y1="1.5" x2="0.4" y2="1.5" width="0.2032" layer="21"/>
+<smd name="1" x="1" y="-0.95" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0.95" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="0" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<text x="0" y="-2.205" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="2.205" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -11264,7 +11261,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C77967"/>
 </part>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U2" library="angrypig7-IC-Power" deviceset="AMS1117" device="_SOT223">
+<part name="U1" library="angrypig7-IC-Power" deviceset="AMS1117" device="_SOT223">
 <attribute name="LCSC" value="C6186"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -11288,7 +11285,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C52923"/>
 </part>
-<part name="C4" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
+<part name="C3" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="+" pinorder="1"/>
@@ -11325,7 +11322,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C52923"/>
 </part>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C6" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
+<part name="C4" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="+" pinorder="1"/>
@@ -11335,7 +11332,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C16133"/>
 </part>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C11" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF">
+<part name="C5" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11344,7 +11341,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C1548"/>
 </part>
-<part name="C12" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF">
+<part name="C6" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11368,7 +11365,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C496550"/>
 </part>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C7" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
+<part name="C10" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11378,7 +11375,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C1525"/>
 </part>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C5" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C9" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11397,7 +11394,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25087"/>
 </part>
-<part name="R3" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k, 1%">
+<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k,1%">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11407,7 +11404,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C25752"/>
 </part>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C3" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="5.6pF">
+<part name="C12" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="5.6pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11416,7 +11413,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C318596"/>
 </part>
-<part name="C10" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
+<part name="C15" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11425,7 +11422,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C1525"/>
 </part>
-<part name="R2" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k">
+<part name="R8" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11444,7 +11441,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C118141"/>
 </part>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<part name="R7" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11464,7 +11461,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <part name="Y1" library="angrypig7-Clocks" deviceset="CRYSTAL-40MHZ" device="_2520" value="40Mhz">
 <attribute name="LCSC" value="C284176"/>
 </part>
-<part name="C9" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C7" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11492,10 +11489,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="U4" library="angrypig7-IC" deviceset="CH340G" device="">
+<part name="U2" library="angrypig7-IC" deviceset="CH340G" device="">
 <attribute name="LCSC" value="C14267"/>
 </part>
-<part name="J2" library="angrypig7-Connectors" deviceset="USB-TYPE-C-31-M-12" device="">
+<part name="J1" library="angrypig7-Connectors" deviceset="USB-TYPE-C-31-M-12" device="">
 <attribute name="LCSC" value="C165948"/>
 </part>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -11503,7 +11500,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <part name="Q1" library="angrypig7-Transistors" deviceset="S8050" device="">
 <attribute name="LCSC" value="C2146"/>
 </part>
-<part name="R7" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k">
+<part name="R2" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11515,7 +11512,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <part name="Q2" library="angrypig7-Transistors" deviceset="S8050" device="">
 <attribute name="LCSC" value="C2146"/>
 </part>
-<part name="R8" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k">
+<part name="R3" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11524,7 +11521,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25900"/>
 </part>
-<part name="C15" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C11" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11534,6 +11531,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C15525"/>
 </part>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C16" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C16133"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11572,7 +11578,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND4" gate="1" x="31.75" y="231.14" smashed="yes">
 <attribute name="VALUE" x="31.75" y="230.886" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="113.03" y="257.81" smashed="yes">
+<instance part="U1" gate="G$1" x="113.03" y="257.81" smashed="yes">
 <attribute name="NAME" x="105.41" y="265.938" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="105.41" y="263.398" size="1.778" layer="96" align="center-left"/>
 <attribute name="LCSC" x="113.03" y="257.81" size="1.778" layer="96" display="off"/>
@@ -11596,10 +11602,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="98.044" y="249.301" size="1.778" layer="96"/>
 <attribute name="LCSC" x="96.52" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="140.97" y="254" smashed="yes">
+<instance part="C3" gate="G$1" x="140.97" y="252.73" smashed="yes">
 <attribute name="NAME" x="142.113" y="254.4826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.113" y="249.4026" size="1.778" layer="96"/>
-<attribute name="LCSC" x="140.97" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC" x="140.97" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="273.05" y="189.23" smashed="yes">
 <attribute name="VALUE" x="273.05" y="188.976" size="1.778" layer="96" align="top-center"/>
@@ -11637,20 +11643,20 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND10" gate="1" x="346.71" y="69.85" smashed="yes">
 <attribute name="VALUE" x="346.71" y="69.596" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C6" gate="G$1" x="151.13" y="254" smashed="yes">
+<instance part="C4" gate="G$1" x="151.13" y="252.73" smashed="yes">
 <attribute name="NAME" x="152.273" y="254.4826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.273" y="249.4026" size="1.778" layer="96"/>
-<attribute name="LCSC" x="151.13" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC" x="151.13" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="279.4" y="219.71" smashed="yes">
 <attribute name="VALUE" x="279.4" y="219.456" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C11" gate="G$1" x="287.02" y="243.84" smashed="yes" rot="R90">
+<instance part="C5" gate="G$1" x="287.02" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="285.369" y="245.364" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="290.449" y="245.364" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="287.02" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="287.02" y="226.06" smashed="yes" rot="R90">
+<instance part="C6" gate="G$1" x="287.02" y="226.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="285.369" y="227.584" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="290.449" y="227.584" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="287.02" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
@@ -11674,7 +11680,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="SUPPLY11" gate="G$1" x="232.41" y="193.04" smashed="yes">
 <attribute name="VALUE" x="232.41" y="195.834" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="242.57" y="182.88" smashed="yes">
+<instance part="C10" gate="G$1" x="242.57" y="182.88" smashed="yes">
 <attribute name="NAME" x="244.094" y="184.531" size="1.778" layer="95"/>
 <attribute name="VALUE" x="244.094" y="179.451" size="1.778" layer="96"/>
 <attribute name="LCSC" x="242.57" y="182.88" size="1.778" layer="96" display="off"/>
@@ -11682,7 +11688,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND13" gate="1" x="242.57" y="173.99" smashed="yes">
 <attribute name="VALUE" x="242.57" y="173.736" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="232.41" y="182.88" smashed="yes">
+<instance part="C9" gate="G$1" x="232.41" y="182.88" smashed="yes">
 <attribute name="NAME" x="233.934" y="184.531" size="1.778" layer="95"/>
 <attribute name="VALUE" x="233.934" y="179.451" size="1.778" layer="96"/>
 <attribute name="LCSC" x="232.41" y="182.88" size="1.27" layer="96" display="off"/>
@@ -11695,7 +11701,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="349.25" y="160.528" size="1.778" layer="96"/>
 <attribute name="LCSC" x="346.71" y="162.56" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="281.94" y="204.47" smashed="yes">
+<instance part="R1" gate="G$1" x="281.94" y="204.47" smashed="yes">
 <attribute name="NAME" x="278.13" y="205.9686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="278.13" y="201.168" size="1.778" layer="96"/>
 <attribute name="LCSC" x="281.94" y="204.47" size="1.27" layer="96" display="off"/>
@@ -11703,17 +11709,17 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND15" gate="1" x="208.28" y="156.21" smashed="yes">
 <attribute name="VALUE" x="208.28" y="155.956" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="227.33" y="167.64" smashed="yes" rot="R270">
+<instance part="C12" gate="G$1" x="227.33" y="167.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="228.981" y="166.116" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="223.901" y="166.116" size="1.778" layer="96" rot="R270"/>
 <attribute name="LCSC" x="227.33" y="167.64" size="1.27" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="138.43" y="54.61" smashed="yes">
+<instance part="C15" gate="G$1" x="138.43" y="54.61" smashed="yes">
 <attribute name="NAME" x="139.954" y="56.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.954" y="51.181" size="1.778" layer="96"/>
 <attribute name="LCSC" x="138.43" y="54.61" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="124.46" y="62.23" smashed="yes" rot="R180">
+<instance part="R8" gate="G$1" x="124.46" y="62.23" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.27" y="60.7314" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="128.27" y="65.532" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC" x="124.46" y="62.23" size="1.27" layer="96" rot="R180" display="off"/>
@@ -11744,7 +11750,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND18" gate="1" x="138.43" y="74.93" smashed="yes">
 <attribute name="VALUE" x="138.43" y="74.676" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="118.11" y="100.33" smashed="yes" rot="R180">
+<instance part="R7" gate="G$1" x="118.11" y="100.33" smashed="yes" rot="R180">
 <attribute name="NAME" x="121.92" y="98.8314" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="121.92" y="103.632" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC" x="118.11" y="100.33" size="1.27" layer="96" rot="R180" display="off"/>
@@ -11775,7 +11781,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="NAME" x="295.91" y="237.744" size="1.778" layer="95" font="vector" rot="R180" align="top-right"/>
 <attribute name="LCSC" x="294.64" y="234.95" size="1.27" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="243.84" y="205.74" smashed="yes">
+<instance part="C7" gate="G$1" x="243.84" y="205.74" smashed="yes">
 <attribute name="NAME" x="245.364" y="207.391" size="1.778" layer="95"/>
 <attribute name="VALUE" x="245.364" y="202.311" size="1.778" layer="96"/>
 <attribute name="LCSC" x="243.84" y="205.74" size="1.27" layer="96" display="off"/>
@@ -11793,12 +11799,12 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="121.92" y="113.792" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC" x="118.11" y="110.49" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U4" gate="G$1" x="44.45" y="173.99" smashed="yes">
+<instance part="U2" gate="G$1" x="44.45" y="173.99" smashed="yes">
 <attribute name="NAME" x="37.2872" y="189.1792" size="1.778" layer="95"/>
 <attribute name="VALUE" x="37.2872" y="187.1472" size="1.778" layer="95"/>
 <attribute name="LCSC" x="44.45" y="173.99" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="35.56" y="252.73" smashed="yes">
+<instance part="J1" gate="G$1" x="35.56" y="252.73" smashed="yes">
 <attribute name="NAME" x="30.48" y="264.414" size="1.27" layer="95"/>
 <attribute name="LCSC" x="35.56" y="252.73" size="1.27" layer="96" display="off"/>
 </instance>
@@ -11813,7 +11819,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="124.46" y="175.26" size="1.778" layer="96"/>
 <attribute name="LCSC" x="120.65" y="176.53" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="114.3" y="184.15" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="114.3" y="184.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.8014" y="180.34" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="117.602" y="180.34" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="114.3" y="184.15" size="1.27" layer="96" rot="R90" display="off"/>
@@ -11823,18 +11829,23 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="146.05" y="175.26" size="1.778" layer="96"/>
 <attribute name="LCSC" x="142.24" y="176.53" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="135.89" y="184.15" smashed="yes" rot="R90">
+<instance part="R3" gate="G$1" x="135.89" y="184.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.3914" y="180.34" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="139.192" y="180.34" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="135.89" y="184.15" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C15" gate="G$1" x="80.01" y="177.8" smashed="yes">
+<instance part="C11" gate="G$1" x="80.01" y="177.8" smashed="yes">
 <attribute name="NAME" x="81.534" y="179.451" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.534" y="174.371" size="1.778" layer="96"/>
 <attribute name="LCSC" x="80.01" y="177.8" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="80.01" y="168.91" smashed="yes">
 <attribute name="VALUE" x="80.01" y="168.656" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C16" gate="G$1" x="161.29" y="252.73" smashed="yes">
+<attribute name="NAME" x="162.433" y="254.4826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.433" y="249.4026" size="1.778" layer="96"/>
+<attribute name="LCSC" x="161.29" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11845,12 +11856,12 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <wire x1="54.61" y1="266.7" x2="54.61" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="261.62" x2="49.53" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
 <wire x1="96.52" y1="262.89" x2="96.52" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
 <wire x1="96.52" y1="259.08" x2="101.6" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="256.54" x2="96.52" y2="259.08" width="0.1524" layer="91"/>
@@ -11869,16 +11880,16 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="54.61" y1="238.76" x2="54.61" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="243.84" x2="49.53" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="31.75" y1="233.68" x2="31.75" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="SHIELD"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="113.03" y1="242.57" x2="113.03" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="113.03" y1="246.38" x2="113.03" y2="250.19" width="0.1524" layer="91"/>
@@ -11891,11 +11902,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="140.97" y1="248.92" x2="140.97" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="246.38" x2="129.54" y2="246.38" width="0.1524" layer="91"/>
 <junction x="129.54" y="246.38"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="C4" gate="G$1" pin="-"/>
-<pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="151.13" y1="248.92" x2="151.13" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="246.38" x2="140.97" y2="246.38" width="0.1524" layer="91"/>
 <junction x="140.97" y="246.38"/>
+<pinref part="C16" gate="G$1" pin="-"/>
+<wire x1="161.29" y1="248.92" x2="161.29" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="246.38" x2="151.13" y2="246.38" width="0.1524" layer="91"/>
+<junction x="151.13" y="246.38"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -11903,7 +11918,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="287.02" y1="195.58" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="195.58" x2="273.05" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="273.05" y1="195.58" x2="273.05" y2="191.77" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="204.47" x2="273.05" y2="204.47" width="0.1524" layer="91"/>
 <wire x1="273.05" y1="204.47" x2="273.05" y2="195.58" width="0.1524" layer="91"/>
 <junction x="273.05" y="195.58"/>
@@ -11926,11 +11941,11 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <wire x1="289.56" y1="234.95" x2="279.4" y2="234.95" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="283.21" y1="243.84" x2="279.4" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="243.84" x2="279.4" y2="234.95" width="0.1524" layer="91"/>
 <junction x="279.4" y="234.95"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="283.21" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="226.06" x2="279.4" y2="234.95" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -11945,13 +11960,13 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="242.57" y1="176.53" x2="242.57" y2="179.07" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="232.41" y1="176.53" x2="232.41" y2="179.07" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G1" pin="2"/>
@@ -11987,15 +12002,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="243.84" y1="199.39" x2="243.84" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="138.43" y1="50.8" x2="138.43" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="31.75" y1="184.15" x2="25.4" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="184.15" x2="25.4" y2="190.5" width="0.1524" layer="91"/>
@@ -12003,13 +12018,13 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="80.01" y1="171.45" x2="80.01" y2="173.99" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<pinref part="U2" gate="G$1" pin="OUT"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="129.54" y1="264.16" x2="129.54" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="259.08" x2="124.46" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -12017,11 +12032,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <junction x="129.54" y="259.08"/>
 <wire x1="140.97" y1="256.54" x2="140.97" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="259.08" x2="129.54" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="151.13" y1="256.54" x2="151.13" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="259.08" x2="140.97" y2="259.08" width="0.1524" layer="91"/>
 <junction x="140.97" y="259.08"/>
+<pinref part="C16" gate="G$1" pin="+"/>
+<wire x1="161.29" y1="256.54" x2="161.29" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="259.08" x2="151.13" y2="259.08" width="0.1524" layer="91"/>
+<junction x="151.13" y="259.08"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
@@ -12041,7 +12060,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="271.78" y1="170.18" x2="269.24" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="170.18" x2="269.24" y2="212.09" width="0.1524" layer="91"/>
 <junction x="269.24" y="212.09"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="209.55" x2="243.84" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="209.55" x2="256.54" y2="212.09" width="0.1524" layer="91"/>
 <junction x="256.54" y="212.09"/>
@@ -12084,17 +12103,17 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="257.81" y1="189.23" x2="242.57" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="242.57" y1="189.23" x2="232.41" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="232.41" y1="189.23" x2="232.41" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="242.57" y1="186.69" x2="242.57" y2="189.23" width="0.1524" layer="91"/>
 <junction x="242.57" y="189.23"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="232.41" y1="186.69" x2="232.41" y2="189.23" width="0.1524" layer="91"/>
 <junction x="232.41" y="189.23"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="111.76" y1="62.23" x2="111.76" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="62.23" x2="111.76" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12103,7 +12122,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="74.93" y1="107.95" x2="74.93" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="113.03" y1="100.33" x2="109.22" y2="100.33" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 <wire x1="109.22" y1="100.33" x2="109.22" y2="110.49" width="0.1524" layer="91"/>
@@ -12124,10 +12143,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
-<pinref part="U4" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="63.5" y1="190.5" x2="63.5" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="184.15" x2="57.15" y2="184.15" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="80.01" y1="181.61" x2="80.01" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="80.01" y1="184.15" x2="63.5" y2="184.15" width="0.1524" layer="91"/>
 <junction x="63.5" y="184.15"/>
@@ -12136,7 +12155,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="XTAL_OUT"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="290.83" y1="243.84" x2="294.64" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="243.84" x2="294.64" y2="237.49" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="190.5" x2="307.34" y2="243.84" width="0.1524" layer="91"/>
@@ -12148,7 +12167,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <net name="N$1" class="0">
 <segment>
 <wire x1="294.64" y1="226.06" x2="294.64" y2="232.41" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="290.83" y1="226.06" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="XTAL_IN"/>
 <wire x1="304.8" y1="190.5" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
@@ -12169,8 +12188,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <label x="113.03" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="62.23" x2="138.43" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="62.23" x2="138.43" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="62.23" x2="143.51" y2="62.23" width="0.1524" layer="91"/>
@@ -12354,7 +12373,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <label x="36.83" y="118.11" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="TX"/>
+<pinref part="U2" gate="G$1" pin="TX"/>
 <wire x1="31.75" y1="181.61" x2="25.4" y2="181.61" width="0.1524" layer="91"/>
 <label x="25.4" y="181.61" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12371,7 +12390,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <label x="36.83" y="115.57" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="RX"/>
+<pinref part="U2" gate="G$1" pin="RX"/>
 <wire x1="31.75" y1="179.07" x2="25.4" y2="179.07" width="0.1524" layer="91"/>
 <label x="25.4" y="179.07" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12392,7 +12411,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="RES12K"/>
 <wire x1="297.18" y1="190.5" x2="297.18" y2="204.47" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="204.47" x2="297.18" y2="204.47" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12401,7 +12420,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="U3" gate="G$1" pin="LNA"/>
 <wire x1="271.78" y1="167.64" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="167.64" x2="243.84" y2="168.91" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="167.64" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
 <junction x="243.84" y="167.64"/>
 </segment>
@@ -12411,7 +12430,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="X1" gate="G1" pin="1"/>
 <wire x1="203.2" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="167.64" x2="215.9" y2="168.91" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <junction x="215.9" y="167.64"/>
 </segment>
@@ -12419,37 +12438,37 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="128.27" y1="100.33" x2="123.19" y2="100.33" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB_D+" class="0">
+<net name="USB_P" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="49.53" y1="254" x2="55.88" y2="254" width="0.1524" layer="91"/>
 <label x="55.88" y="254" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="D+"/>
+<pinref part="U2" gate="G$1" pin="D+"/>
 <wire x1="31.75" y1="173.99" x2="25.4" y2="173.99" width="0.1524" layer="91"/>
 <label x="25.4" y="173.99" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="USB_D-" class="0">
+<net name="USB_N" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D-"/>
+<pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="49.53" y1="251.46" x2="55.88" y2="251.46" width="0.1524" layer="91"/>
 <label x="55.88" y="251.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="D-"/>
+<pinref part="U2" gate="G$1" pin="D-"/>
 <wire x1="31.75" y1="171.45" x2="25.4" y2="171.45" width="0.1524" layer="91"/>
 <label x="25.4" y="171.45" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RTS" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="RTS"/>
+<pinref part="U2" gate="G$1" pin="RTS"/>
 <wire x1="57.15" y1="179.07" x2="63.5" y2="179.07" width="0.1524" layer="91"/>
 <label x="63.5" y="179.07" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12459,14 +12478,14 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <label x="123.19" y="165.1" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="135.89" y1="189.23" x2="135.89" y2="193.04" width="0.1524" layer="91"/>
 <label x="135.89" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DTS" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="DTR"/>
+<pinref part="U2" gate="G$1" pin="DTR"/>
 <wire x1="57.15" y1="176.53" x2="63.5" y2="176.53" width="0.1524" layer="91"/>
 <label x="63.5" y="176.53" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12476,12 +12495,12 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="118.11" y1="176.53" x2="114.3" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="176.53" x2="114.3" y2="179.07" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DTR" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="189.23" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
 <label x="114.3" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12496,7 +12515,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="139.7" y1="176.53" x2="135.89" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="176.53" x2="135.89" y2="179.07" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
