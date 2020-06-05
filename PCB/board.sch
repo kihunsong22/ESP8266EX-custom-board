@@ -422,7 +422,6 @@ Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</descript
 <description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
 Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
-<wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
 <wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
@@ -10316,7 +10315,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <smd name="2" x="3.1" y="0" dx="1.85" dy="0.9" layer="1" rot="R180"/>
 <smd name="3" x="3.1" y="2.3" dx="1.85" dy="0.9" layer="1" rot="R180"/>
 <smd name="4" x="-3.1" y="0" dx="3.2" dy="1.85" layer="1" rot="R270"/>
-<text x="-0.762" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<text x="-0.762" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.2032" layer="21"/>
 <wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.2032" layer="21"/>
 <wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.2032" layer="21"/>
@@ -11003,6 +11002,188 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead_v2">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de &lt;br&gt;
+Modified by Rikard Qvarnström&lt;/author&gt;</description>
+<packages>
+<package name="1X04">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+<package name="1X04/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+</package>
+<package name="1X04/OCT">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD4">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X4" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/LONG" package="1X04">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/L90" package="1X04/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/OCT" package="1X04/OCT">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CDESIGNER" value="Kihun Song"/>
@@ -11032,7 +11213,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="angrypig7-IC" deviceset="ESP8266EX" device="">
+<part name="U3" library="angrypig7-IC" deviceset="ESP8266EX" device="">
 <attribute name="LCSC" value="C77967"/>
 </part>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -11042,7 +11223,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C3" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C2" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11051,7 +11232,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C15525"/>
 </part>
-<part name="C2" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<part name="C1" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11071,7 +11252,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </part>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C12" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<part name="C8" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11080,16 +11261,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C52923"/>
 </part>
-<part name="C6" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="LCSC" value="C52923"/>
-</part>
-<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="IC1" library="angrypig7-IC" deviceset="W25Q32JVSSIQ" device="">
 <attribute name="LCSC" value="C179173"/>
@@ -11097,7 +11268,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C7" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<part name="C14" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11107,7 +11278,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C52923"/>
 </part>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C5" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
+<part name="C6" library="angrypig7-RCL" deviceset="C-POLARIZED" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="100uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="+" pinorder="1"/>
@@ -11120,7 +11291,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C91747"/>
 </part>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C8" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF">
+<part name="C11" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11129,7 +11300,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C1554"/>
 </part>
-<part name="C9" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF">
+<part name="C12" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11139,7 +11310,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C1554"/>
 </part>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C11" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<part name="C13" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11153,7 +11324,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C496550"/>
 </part>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C10" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
+<part name="C7" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11163,7 +11334,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C1525"/>
 </part>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C13" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C5" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11173,7 +11344,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C15525"/>
 </part>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="200R">
+<part name="R4" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="200R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11182,9 +11353,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C25087"/>
 </part>
-<part name="R2" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k"/>
+<part name="R3" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C14" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="5.6pF">
+<part name="C3" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="5.6pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11193,10 +11364,10 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C318596"/>
 </part>
-<part name="U3" library="angrypig7-IC" deviceset="ESP01" device="_PINOUT" value="ESP01_PINOUT"/>
+<part name="U1" library="angrypig7-IC" deviceset="ESP01" device="_PINOUT" value="ESP01_PINOUT"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C15" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<part name="C10" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11205,7 +11376,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C52923"/>
 </part>
-<part name="R3" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<part name="R2" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11228,7 +11399,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <attribute name="LCSC" value="C118141"/>
 </part>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R4" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -11237,9 +11408,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="D1" library="angrypig7-Diodes" deviceset="LED" device="_0603"/>
+<part name="D1" library="angrypig7-Diodes" deviceset="LED" device="_0603">
+<attribute name="LCSC" value="C72038"/>
+</part>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="JP1" library="pinhead_v2" deviceset="PINHD-1X4" device="/OCT"/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11276,7 +11452,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND3" gate="1" x="54.61" y="242.57" smashed="yes">
 <attribute name="VALUE" x="54.61" y="242.316" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="214.63" y="158.75" smashed="yes">
+<instance part="U3" gate="G$1" x="214.63" y="158.75" smashed="yes">
 <attribute name="LCSC" x="214.63" y="158.75" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="31.75" y="237.49" smashed="yes">
@@ -11296,12 +11472,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="SUPPLY5" gate="G$1" x="129.54" y="264.16" smashed="yes">
 <attribute name="VALUE" x="129.54" y="266.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="129.54" y="252.73" smashed="yes">
+<instance part="C2" gate="G$1" x="129.54" y="252.73" smashed="yes">
 <attribute name="NAME" x="131.064" y="254.381" size="1.778" layer="95"/>
 <attribute name="VALUE" x="131.064" y="249.301" size="1.778" layer="96"/>
 <attribute name="LCSC" x="129.54" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="96.52" y="252.73" smashed="yes">
+<instance part="C1" gate="G$1" x="96.52" y="252.73" smashed="yes">
 <attribute name="NAME" x="98.044" y="254.381" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="249.301" size="1.778" layer="96"/>
 <attribute name="LCSC" x="96.52" y="252.73" size="1.778" layer="96" display="off"/>
@@ -11314,24 +11490,16 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND6" gate="1" x="185.42" y="185.42" smashed="yes">
 <attribute name="VALUE" x="185.42" y="185.166" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="158.75" y="212.09" smashed="yes">
-<attribute name="VALUE" x="158.75" y="214.884" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="166.37" y="212.09" smashed="yes">
+<attribute name="VALUE" x="166.37" y="214.884" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C12" gate="G$1" x="167.64" y="201.93" smashed="yes">
-<attribute name="NAME" x="169.164" y="203.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="169.164" y="198.501" size="1.778" layer="96"/>
-<attribute name="LCSC" x="167.64" y="201.93" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="166.37" y="201.93" smashed="yes">
+<attribute name="NAME" x="167.894" y="203.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.894" y="198.501" size="1.778" layer="96"/>
+<attribute name="LCSC" x="166.37" y="201.93" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="158.75" y="201.93" smashed="yes">
-<attribute name="NAME" x="160.274" y="203.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.274" y="198.501" size="1.778" layer="96"/>
-<attribute name="LCSC" x="158.75" y="201.93" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND7" gate="1" x="167.64" y="193.04" smashed="yes">
-<attribute name="VALUE" x="167.64" y="192.786" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND8" gate="1" x="158.75" y="193.04" smashed="yes">
-<attribute name="VALUE" x="158.75" y="192.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="166.37" y="193.04" smashed="yes">
+<attribute name="VALUE" x="166.37" y="192.786" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="IC1" gate="G$1" x="332.74" y="167.64" smashed="yes">
 <attribute name="NAME" x="320.04" y="177.8" size="1.778" layer="95" align="center-left"/>
@@ -11347,7 +11515,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="SUPPLY9" gate="G$1" x="372.11" y="175.26" smashed="yes">
 <attribute name="VALUE" x="372.11" y="178.054" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="372.11" y="167.64" smashed="yes">
+<instance part="C14" gate="G$1" x="372.11" y="167.64" smashed="yes">
 <attribute name="NAME" x="373.634" y="169.291" size="1.778" layer="95"/>
 <attribute name="VALUE" x="373.634" y="164.211" size="1.778" layer="96"/>
 <attribute name="LCSC" x="372.11" y="167.64" size="1.778" layer="96" display="off"/>
@@ -11355,7 +11523,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND10" gate="1" x="372.11" y="157.48" smashed="yes">
 <attribute name="VALUE" x="372.11" y="157.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="151.13" y="254" smashed="yes">
+<instance part="C6" gate="G$1" x="151.13" y="254" smashed="yes">
 <attribute name="NAME" x="152.273" y="254.4826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.273" y="249.4026" size="1.778" layer="96"/>
 <attribute name="LCSC" x="151.13" y="254" size="1.778" layer="96" display="off"/>
@@ -11368,12 +11536,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND11" gate="1" x="191.77" y="215.9" smashed="yes">
 <attribute name="VALUE" x="191.77" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="199.39" y="240.03" smashed="yes" rot="R90">
+<instance part="C11" gate="G$1" x="199.39" y="240.03" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.739" y="241.554" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="202.819" y="241.554" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="199.39" y="240.03" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="199.39" y="222.25" smashed="yes" rot="R90">
+<instance part="C12" gate="G$1" x="199.39" y="222.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.739" y="223.774" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="202.819" y="223.774" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="199.39" y="222.25" size="1.778" layer="96" rot="R90" display="off"/>
@@ -11381,7 +11549,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="SUPPLY10" gate="G$1" x="260.35" y="132.08" smashed="yes">
 <attribute name="VALUE" x="260.35" y="134.874" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C11" gate="G$1" x="260.35" y="121.92" smashed="yes">
+<instance part="C13" gate="G$1" x="260.35" y="121.92" smashed="yes">
 <attribute name="NAME" x="261.874" y="123.571" size="1.778" layer="95"/>
 <attribute name="VALUE" x="261.874" y="118.491" size="1.778" layer="96"/>
 <attribute name="LCSC" x="260.35" y="121.92" size="1.778" layer="96" display="off"/>
@@ -11397,7 +11565,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="SUPPLY11" gate="G$1" x="144.78" y="189.23" smashed="yes">
 <attribute name="VALUE" x="144.78" y="192.024" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C10" gate="G$1" x="154.94" y="179.07" smashed="yes">
+<instance part="C7" gate="G$1" x="154.94" y="179.07" smashed="yes">
 <attribute name="NAME" x="156.464" y="180.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.464" y="175.641" size="1.778" layer="96"/>
 <attribute name="LCSC" x="154.94" y="179.07" size="1.778" layer="96" display="off"/>
@@ -11405,7 +11573,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND13" gate="1" x="154.94" y="170.18" smashed="yes">
 <attribute name="VALUE" x="154.94" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="144.78" y="179.07" smashed="yes">
+<instance part="C5" gate="G$1" x="144.78" y="179.07" smashed="yes">
 <attribute name="NAME" x="146.304" y="180.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.304" y="175.641" size="1.778" layer="96"/>
 <attribute name="LCSC" x="144.78" y="179.07" size="1.27" layer="96" display="off"/>
@@ -11413,24 +11581,24 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND14" gate="1" x="144.78" y="170.18" smashed="yes">
 <attribute name="VALUE" x="144.78" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="259.08" y="158.75" smashed="yes">
+<instance part="R4" gate="G$1" x="259.08" y="158.75" smashed="yes">
 <attribute name="NAME" x="252.73" y="158.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="261.62" y="156.718" size="1.778" layer="96"/>
 <attribute name="LCSC" x="259.08" y="158.75" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="194.31" y="200.66" smashed="yes">
+<instance part="R3" gate="G$1" x="194.31" y="200.66" smashed="yes">
 <attribute name="NAME" x="190.5" y="202.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="190.5" y="197.358" size="1.778" layer="96"/>
 </instance>
 <instance part="GND15" gate="1" x="120.65" y="152.4" smashed="yes">
 <attribute name="VALUE" x="120.65" y="152.146" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C14" gate="G$1" x="139.7" y="163.83" smashed="yes" rot="R270">
+<instance part="C3" gate="G$1" x="139.7" y="163.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="141.351" y="162.306" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.271" y="162.306" size="1.778" layer="96" rot="R270"/>
 <attribute name="LCSC" x="139.7" y="163.83" size="1.27" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="U3" gate="G$1" x="52.07" y="196.85" smashed="yes">
+<instance part="U1" gate="G$1" x="52.07" y="196.85" smashed="yes">
 <attribute name="NAME" x="40.64" y="203.454" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="188.468" size="1.778" layer="95"/>
 </instance>
@@ -11440,12 +11608,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND16" gate="1" x="31.75" y="186.69" smashed="yes">
 <attribute name="VALUE" x="31.75" y="186.436" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C15" gate="G$1" x="181.61" y="119.38" smashed="yes">
+<instance part="C10" gate="G$1" x="181.61" y="119.38" smashed="yes">
 <attribute name="NAME" x="183.134" y="121.031" size="1.778" layer="95"/>
 <attribute name="VALUE" x="183.134" y="115.951" size="1.778" layer="96"/>
 <attribute name="LCSC" x="181.61" y="119.38" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="181.61" y="133.35" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="181.61" y="133.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="180.1114" y="129.54" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="184.912" y="129.54" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="181.61" y="133.35" size="1.27" layer="96" rot="R90" display="off"/>
@@ -11484,7 +11652,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND20" gate="1" x="88.9" y="46.99" smashed="yes">
 <attribute name="VALUE" x="88.9" y="46.736" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="67.31" y="83.82" smashed="yes" rot="R180">
+<instance part="R1" gate="G$1" x="67.31" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.12" y="82.3214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="71.12" y="87.122" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC" x="67.31" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
@@ -11492,12 +11660,23 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="D1" gate="G$1" x="81.28" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="84.582" y="87.376" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="84.582" y="89.535" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="81.28" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="87.63" y="77.47" smashed="yes">
 <attribute name="VALUE" x="87.63" y="77.216" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY15" gate="G$1" x="58.42" y="87.63" smashed="yes">
 <attribute name="VALUE" x="58.42" y="90.424" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="JP1" gate="A" x="38.1" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="149.225" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="165.1" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="49.53" y="166.37" smashed="yes">
+<attribute name="VALUE" x="49.53" y="169.164" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND7" gate="1" x="49.53" y="143.51" smashed="yes">
+<attribute name="VALUE" x="49.53" y="143.256" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11515,7 +11694,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="96.52" y1="262.89" x2="96.52" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
 <wire x1="96.52" y1="259.08" x2="101.6" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="256.54" x2="96.52" y2="259.08" width="0.1524" layer="91"/>
 <junction x="96.52" y="259.08"/>
 </segment>
@@ -11543,43 +11722,38 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="113.03" y1="242.57" x2="113.03" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="113.03" y1="246.38" x2="113.03" y2="250.19" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="248.92" x2="129.54" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="246.38" x2="113.03" y2="246.38" width="0.1524" layer="91"/>
 <junction x="113.03" y="246.38"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="113.03" y1="246.38" x2="96.52" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="246.38" x2="96.52" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="248.92" x2="140.97" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="246.38" x2="129.54" y2="246.38" width="0.1524" layer="91"/>
 <junction x="129.54" y="246.38"/>
 <pinref part="C4" gate="G$1" pin="-"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="151.13" y1="248.92" x2="151.13" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="246.38" x2="140.97" y2="246.38" width="0.1524" layer="91"/>
 <junction x="140.97" y="246.38"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="199.39" y1="191.77" x2="199.39" y2="186.69" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="191.77" x2="185.42" y2="191.77" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="191.77" x2="185.42" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="189.23" y1="200.66" x2="185.42" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="200.66" x2="185.42" y2="191.77" width="0.1524" layer="91"/>
 <junction x="185.42" y="191.77"/>
 </segment>
 <segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="195.58" x2="167.64" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="158.75" y1="195.58" x2="158.75" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="166.37" y1="195.58" x2="166.37" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -11589,17 +11763,17 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="372.11" y1="160.02" x2="372.11" y2="163.83" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y1" gate="G$1" pin="GND"/>
 <wire x1="201.93" y1="231.14" x2="191.77" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="240.03" x2="191.77" y2="240.03" width="0.1524" layer="91"/>
 <wire x1="191.77" y1="240.03" x2="191.77" y2="231.14" width="0.1524" layer="91"/>
 <junction x="191.77" y="231.14"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="222.25" x2="191.77" y2="222.25" width="0.1524" layer="91"/>
 <wire x1="191.77" y1="222.25" x2="191.77" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -11608,18 +11782,18 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="260.35" y1="115.57" x2="260.35" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="172.72" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="144.78" y1="172.72" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G1" pin="2"/>
@@ -11630,12 +11804,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="31.75" y1="189.23" x2="31.75" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="31.75" y1="193.04" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="181.61" y1="111.76" x2="181.61" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11663,6 +11837,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="22.86" y1="58.42" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="49.53" y1="146.05" x2="49.53" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="1">
 <segment>
@@ -11670,36 +11850,32 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="129.54" y1="264.16" x2="129.54" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="259.08" x2="124.46" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="256.54" x2="129.54" y2="259.08" width="0.1524" layer="91"/>
 <junction x="129.54" y="259.08"/>
 <wire x1="140.97" y1="256.54" x2="140.97" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="259.08" x2="129.54" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="151.13" y1="256.54" x2="151.13" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="259.08" x2="140.97" y2="259.08" width="0.1524" layer="91"/>
 <junction x="140.97" y="259.08"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="158.75" y1="208.28" x2="158.75" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDDD"/>
-<wire x1="158.75" y1="208.28" x2="167.64" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="208.28" x2="181.61" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="208.28" x2="166.37" y2="212.09" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VDDD"/>
+<wire x1="166.37" y1="208.28" x2="181.61" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="208.28" x2="212.09" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="208.28" x2="214.63" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="208.28" x2="214.63" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDDA$2"/>
+<pinref part="U3" gate="G$1" pin="VDDA$2"/>
 <wire x1="212.09" y1="186.69" x2="212.09" y2="208.28" width="0.1524" layer="91"/>
 <junction x="212.09" y="208.28"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="205.74" x2="167.64" y2="208.28" width="0.1524" layer="91"/>
-<junction x="167.64" y="208.28"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="158.75" y1="205.74" x2="158.75" y2="208.28" width="0.1524" layer="91"/>
-<junction x="158.75" y="208.28"/>
-<pinref part="U1" gate="G$1" pin="VDDA"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="166.37" y1="205.74" x2="166.37" y2="208.28" width="0.1524" layer="91"/>
+<junction x="166.37" y="208.28"/>
+<pinref part="U3" gate="G$1" pin="VDDA"/>
 <wire x1="184.15" y1="166.37" x2="181.61" y2="166.37" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="166.37" x2="181.61" y2="208.28" width="0.1524" layer="91"/>
 <junction x="181.61" y="208.28"/>
@@ -11713,28 +11889,28 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="372.11" y1="171.45" x2="372.11" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <wire x1="260.35" y1="125.73" x2="260.35" y2="128.27" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="260.35" y1="128.27" x2="260.35" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="128.27" x2="250.19" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="250.19" y1="128.27" x2="250.19" y2="148.59" width="0.1524" layer="91"/>
 <junction x="260.35" y="128.27"/>
-<pinref part="U1" gate="G$1" pin="VDDPST$2"/>
+<pinref part="U3" gate="G$1" pin="VDDPST$2"/>
 <wire x1="250.19" y1="148.59" x2="247.65" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDDPST"/>
+<pinref part="U3" gate="G$1" pin="VDDPST"/>
 <wire x1="212.09" y1="130.81" x2="212.09" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="128.27" x2="250.19" y2="128.27" width="0.1524" layer="91"/>
 <junction x="250.19" y="128.27"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<pinref part="U1" gate="G$1" pin="VDD3P3"/>
+<pinref part="U3" gate="G$1" pin="VDD3P3"/>
 <wire x1="184.15" y1="161.29" x2="170.18" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDD3P3$2"/>
+<pinref part="U3" gate="G$1" pin="VDD3P3$2"/>
 <wire x1="184.15" y1="158.75" x2="170.18" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="158.75" x2="170.18" y2="161.29" width="0.1524" layer="91"/>
 <junction x="170.18" y="161.29"/>
@@ -11742,15 +11918,15 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="170.18" y1="185.42" x2="154.94" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="185.42" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="185.42" x2="144.78" y2="189.23" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="182.88" x2="154.94" y2="185.42" width="0.1524" layer="91"/>
 <junction x="154.94" y="185.42"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="182.88" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
 <junction x="144.78" y="185.42"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VCC"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="200.66" x2="31.75" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="31.75" y1="200.66" x2="31.75" y2="204.47" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
@@ -11758,8 +11934,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="172.72" y1="125.73" x2="172.72" y2="133.35" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="181.61" y1="128.27" x2="181.61" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="125.73" x2="181.61" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="125.73" x2="172.72" y2="125.73" width="0.1524" layer="91"/>
@@ -11771,17 +11947,23 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="29.21" y1="58.42" x2="29.21" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="62.23" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="83.82" x2="58.42" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
+<wire x1="40.64" y1="160.02" x2="49.53" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="160.02" x2="49.53" y2="166.37" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="XTAL_OUT"/>
+<pinref part="U3" gate="G$1" pin="XTAL_OUT"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="240.03" x2="207.01" y2="240.03" width="0.1524" layer="91"/>
 <wire x1="207.01" y1="240.03" x2="207.01" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="219.71" y1="186.69" x2="219.71" y2="240.03" width="0.1524" layer="91"/>
@@ -11793,9 +11975,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <segment>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="207.01" y1="222.25" x2="207.01" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="222.25" x2="207.01" y2="222.25" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XTAL_IN"/>
+<pinref part="U3" gate="G$1" pin="XTAL_IN"/>
 <wire x1="217.17" y1="186.69" x2="217.17" y2="222.25" width="0.1524" layer="91"/>
 <wire x1="207.01" y1="222.25" x2="217.17" y2="222.25" width="0.1524" layer="91"/>
 <junction x="207.01" y="222.25"/>
@@ -11803,16 +11985,16 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="CHIP_EN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="CHIP_EN"/>
+<pinref part="U3" gate="G$1" pin="CHIP_EN"/>
 <label x="177.8" y="151.13" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="184.15" y1="151.13" x2="181.61" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="151.13" x2="177.8" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="138.43" x2="181.61" y2="151.13" width="0.1524" layer="91"/>
 <junction x="181.61" y="151.13"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="CH_PD"/>
+<pinref part="U1" gate="G$1" pin="CH_PD"/>
 <wire x1="68.58" y1="200.66" x2="74.93" y2="200.66" width="0.1524" layer="91"/>
 <label x="74.93" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11824,66 +12006,66 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="ADC_IN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="TOUT"/>
+<pinref part="U3" gate="G$1" pin="TOUT"/>
 <wire x1="184.15" y1="153.67" x2="177.8" y2="153.67" width="0.1524" layer="91"/>
 <label x="177.8" y="153.67" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO16" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="XPD_DCDC"/>
+<pinref part="U3" gate="G$1" pin="XPD_DCDC"/>
 <wire x1="184.15" y1="148.59" x2="177.8" y2="148.59" width="0.1524" layer="91"/>
 <label x="177.8" y="148.59" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO14" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTMS"/>
+<pinref part="U3" gate="G$1" pin="MTMS"/>
 <wire x1="207.01" y1="130.81" x2="207.01" y2="124.46" width="0.1524" layer="91"/>
 <label x="207.01" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTDI"/>
+<pinref part="U3" gate="G$1" pin="MTDI"/>
 <wire x1="209.55" y1="130.81" x2="209.55" y2="124.46" width="0.1524" layer="91"/>
 <label x="209.55" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO13" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTCK"/>
+<pinref part="U3" gate="G$1" pin="MTCK"/>
 <wire x1="214.63" y1="130.81" x2="214.63" y2="124.46" width="0.1524" layer="91"/>
 <label x="214.63" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MTDO"/>
+<pinref part="U3" gate="G$1" pin="MTDO"/>
 <wire x1="217.17" y1="130.81" x2="217.17" y2="124.46" width="0.1524" layer="91"/>
 <label x="217.17" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO2"/>
+<pinref part="U3" gate="G$1" pin="GPIO2"/>
 <wire x1="219.71" y1="130.81" x2="219.71" y2="124.46" width="0.1524" layer="91"/>
 <label x="219.71" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GPIO2"/>
+<pinref part="U1" gate="G$1" pin="GPIO2"/>
 <wire x1="35.56" y1="198.12" x2="29.21" y2="198.12" width="0.1524" layer="91"/>
 <label x="29.21" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO0"/>
+<pinref part="U3" gate="G$1" pin="GPIO0"/>
 <wire x1="222.25" y1="130.81" x2="222.25" y2="124.46" width="0.1524" layer="91"/>
 <label x="222.25" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GPIO0"/>
+<pinref part="U1" gate="G$1" pin="GPIO0"/>
 <wire x1="35.56" y1="195.58" x2="29.21" y2="195.58" width="0.1524" layer="91"/>
 <label x="29.21" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11895,14 +12077,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="GPIO4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO4"/>
+<pinref part="U3" gate="G$1" pin="GPIO4"/>
 <wire x1="224.79" y1="130.81" x2="224.79" y2="124.46" width="0.1524" layer="91"/>
 <label x="224.79" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SD_CLK" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="158.75" x2="270.51" y2="158.75" width="0.1524" layer="91"/>
 <label x="270.51" y="158.75" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11914,21 +12096,21 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="SD_CLK"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="U3" gate="G$1" pin="SD_CLK"/>
 <wire x1="254" y1="158.75" x2="247.65" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO5"/>
+<pinref part="U3" gate="G$1" pin="GPIO5"/>
 <wire x1="247.65" y1="166.37" x2="270.51" y2="166.37" width="0.1524" layer="91"/>
 <label x="270.51" y="166.37" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SD_D1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SD_DATA_1"/>
+<pinref part="U3" gate="G$1" pin="SD_DATA_1"/>
 <wire x1="247.65" y1="163.83" x2="270.51" y2="163.83" width="0.1524" layer="91"/>
 <label x="270.51" y="163.83" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11940,7 +12122,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="SD_D0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SD_DATA_0"/>
+<pinref part="U3" gate="G$1" pin="SD_DATA_0"/>
 <wire x1="247.65" y1="161.29" x2="270.51" y2="161.29" width="0.1524" layer="91"/>
 <label x="270.51" y="161.29" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11952,7 +12134,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="SD_CMD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SD_CMD"/>
+<pinref part="U3" gate="G$1" pin="SD_CMD"/>
 <wire x1="247.65" y1="156.21" x2="270.51" y2="156.21" width="0.1524" layer="91"/>
 <label x="270.51" y="156.21" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11964,7 +12146,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="SD_D3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SD_DATA_3"/>
+<pinref part="U3" gate="G$1" pin="SD_DATA_3"/>
 <wire x1="247.65" y1="153.67" x2="270.51" y2="153.67" width="0.1524" layer="91"/>
 <label x="270.51" y="153.67" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11976,7 +12158,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="SD_D2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SD_DATA_2"/>
+<pinref part="U3" gate="G$1" pin="SD_DATA_2"/>
 <wire x1="247.65" y1="151.13" x2="270.51" y2="151.13" width="0.1524" layer="91"/>
 <label x="270.51" y="151.13" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11988,54 +12170,64 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </net>
 <net name="URXD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="U0RXD"/>
+<pinref part="U3" gate="G$1" pin="U0RXD"/>
 <wire x1="224.79" y1="186.69" x2="224.79" y2="193.04" width="0.1524" layer="91"/>
 <label x="224.79" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="RXD"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="68.58" y1="193.04" x2="74.93" y2="193.04" width="0.1524" layer="91"/>
 <label x="74.93" y="193.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="40.64" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
+<label x="53.34" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UTXD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="U0TXD"/>
+<pinref part="U3" gate="G$1" pin="U0TXD"/>
 <wire x1="222.25" y1="186.69" x2="222.25" y2="193.04" width="0.1524" layer="91"/>
 <label x="222.25" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="TXD"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="68.58" y1="195.58" x2="74.93" y2="195.58" width="0.1524" layer="91"/>
 <label x="74.93" y="195.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="40.64" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
+<label x="53.34" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="EXT_RSTB"/>
+<pinref part="U3" gate="G$1" pin="EXT_RSTB"/>
 <wire x1="207.01" y1="186.69" x2="207.01" y2="193.04" width="0.1524" layer="91"/>
 <label x="207.01" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="RST"/>
+<pinref part="U1" gate="G$1" pin="RST"/>
 <wire x1="68.58" y1="198.12" x2="74.93" y2="198.12" width="0.1524" layer="91"/>
 <label x="74.93" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RES12K"/>
+<pinref part="U3" gate="G$1" pin="RES12K"/>
 <wire x1="209.55" y1="186.69" x2="209.55" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="199.39" y1="200.66" x2="209.55" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="LNA"/>
+<pinref part="U3" gate="G$1" pin="LNA"/>
 <wire x1="184.15" y1="163.83" x2="156.21" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="163.83" x2="156.21" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="156.21" y1="163.83" x2="143.51" y2="163.83" width="0.1524" layer="91"/>
 <junction x="156.21" y="163.83"/>
 </segment>
@@ -12045,7 +12237,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="X1" gate="G1" pin="1"/>
 <wire x1="115.57" y1="163.83" x2="128.27" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="128.27" y1="163.83" x2="128.27" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="135.89" y1="163.83" x2="128.27" y2="163.83" width="0.1524" layer="91"/>
 <junction x="128.27" y="163.83"/>
 </segment>
@@ -12053,7 +12245,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="83.82" x2="72.39" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
