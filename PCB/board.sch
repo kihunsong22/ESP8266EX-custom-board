@@ -378,19 +378,19 @@ Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</descript
 <description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
 Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
-<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="51"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="51"/>
 <wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
 <wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
 <wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
@@ -10134,29 +10134,29 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <pin name="CLK" x="17.78" y="-1.27" length="middle" rot="R180"/>
 <pin name="DI(IO0)" x="17.78" y="-3.81" length="middle" rot="R180"/>
 </symbol>
-<symbol name="CH340G">
-<pin name="GND" x="-12.7" y="10.16" length="middle"/>
-<pin name="TX" x="-12.7" y="7.62" length="middle"/>
-<pin name="RX" x="-12.7" y="5.08" length="middle"/>
-<pin name="V3" x="-12.7" y="2.54" length="middle"/>
-<pin name="D+" x="-12.7" y="0" length="middle"/>
-<pin name="D-" x="-12.7" y="-2.54" length="middle"/>
-<pin name="XI" x="-12.7" y="-5.08" length="middle"/>
-<pin name="XO" x="-12.7" y="-7.62" length="middle"/>
-<pin name="CTS" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="DSR" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="RI" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="DCD" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="DTR" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="RTS" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="RS232" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="VCC" x="12.7" y="10.16" length="middle" rot="R180"/>
-<text x="-7.1628" y="15.1892" size="1.778" layer="95">&gt;NAME</text>
-<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="-7.1628" y="13.1572" size="1.778" layer="95">&gt;VALUE</text>
+<symbol name="CH340C">
+<pin name="GND" x="-12.7" y="8.89" length="middle"/>
+<pin name="TX" x="-12.7" y="6.35" length="middle"/>
+<pin name="RX" x="-12.7" y="3.81" length="middle"/>
+<pin name="V3" x="-12.7" y="1.27" length="middle"/>
+<pin name="D+" x="-12.7" y="-1.27" length="middle"/>
+<pin name="D-" x="-12.7" y="-3.81" length="middle"/>
+<pin name="NC1" x="-12.7" y="-6.35" length="middle"/>
+<pin name="NC2" x="-12.7" y="-8.89" length="middle"/>
+<pin name="CTS" x="12.7" y="-8.89" length="middle" rot="R180"/>
+<pin name="DSR" x="12.7" y="-6.35" length="middle" rot="R180"/>
+<pin name="RI" x="12.7" y="-3.81" length="middle" rot="R180"/>
+<pin name="DCD" x="12.7" y="-1.27" length="middle" rot="R180"/>
+<pin name="DTR" x="12.7" y="1.27" length="middle" rot="R180"/>
+<pin name="RTS" x="12.7" y="3.81" length="middle" rot="R180"/>
+<pin name="RS232" x="12.7" y="6.35" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="8.89" length="middle" rot="R180"/>
+<text x="-7.1628" y="13.9192" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-7.62" y1="11.43" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="11.43" x2="7.62" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-11.43" x2="-7.62" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-11.43" x2="-7.62" y2="11.43" width="0.254" layer="94"/>
+<text x="-7.1628" y="11.8872" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10229,9 +10229,9 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CH340G" prefix="U">
+<deviceset name="CH340C" prefix="U">
 <gates>
-<gate name="G$1" symbol="CH340G" x="22.86" y="-5.08"/>
+<gate name="G$1" symbol="CH340C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC16">
@@ -10243,6 +10243,8 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <connect gate="G$1" pin="DSR" pad="10"/>
 <connect gate="G$1" pin="DTR" pad="13"/>
 <connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="NC1" pad="7"/>
+<connect gate="G$1" pin="NC2" pad="8"/>
 <connect gate="G$1" pin="RI" pad="11"/>
 <connect gate="G$1" pin="RS232" pad="15"/>
 <connect gate="G$1" pin="RTS" pad="14"/>
@@ -10250,8 +10252,6 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <connect gate="G$1" pin="TX" pad="2"/>
 <connect gate="G$1" pin="V3" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="16"/>
-<connect gate="G$1" pin="XI" pad="7"/>
-<connect gate="G$1" pin="XO" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11489,7 +11489,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="U2" library="angrypig7-IC" deviceset="CH340G" device="">
+<part name="U2" library="angrypig7-IC" deviceset="CH340C" device="">
 <attribute name="LCSC" value="C14267"/>
 </part>
 <part name="J1" library="angrypig7-Connectors" deviceset="USB-TYPE-C-31-M-12" device="">
@@ -11799,10 +11799,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="121.92" y="113.792" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC" x="118.11" y="110.49" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U2" gate="G$1" x="44.45" y="173.99" smashed="yes">
-<attribute name="NAME" x="37.2872" y="189.1792" size="1.778" layer="95"/>
-<attribute name="VALUE" x="37.2872" y="187.1472" size="1.778" layer="95"/>
-<attribute name="LCSC" x="44.45" y="173.99" size="1.27" layer="96" display="off"/>
+<instance part="U2" gate="G$1" x="44.45" y="175.26" smashed="yes">
+<attribute name="NAME" x="37.2872" y="190.4492" size="1.778" layer="95"/>
+<attribute name="VALUE" x="37.2872" y="188.4172" size="1.778" layer="95"/>
+<attribute name="LCSC" x="44.45" y="175.26" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="35.56" y="252.73" smashed="yes">
 <attribute name="NAME" x="30.48" y="264.414" size="1.27" layer="95"/>
