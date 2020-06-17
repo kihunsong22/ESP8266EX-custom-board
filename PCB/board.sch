@@ -11541,6 +11541,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="LCSC" value="C16133"/>
 </part>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R9" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C25744"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11751,21 +11760,21 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND18" gate="1" x="138.43" y="74.93" smashed="yes">
 <attribute name="VALUE" x="138.43" y="74.676" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="118.11" y="100.33" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="98.8314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="103.632" size="1.778" layer="96" rot="R180"/>
-<attribute name="LCSC" x="118.11" y="100.33" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="R7" gate="G$1" x="118.11" y="113.03" smashed="yes" rot="R180">
+<attribute name="NAME" x="121.92" y="111.5314" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="121.92" y="116.332" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="118.11" y="113.03" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="132.08" y="100.33" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.302" y="98.806" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="126.238" y="102.235" size="1.778" layer="96"/>
-<attribute name="LCSC" x="132.08" y="100.33" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="D1" gate="G$1" x="132.08" y="113.03" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.302" y="111.506" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="126.238" y="114.935" size="1.778" layer="96"/>
+<attribute name="LCSC" x="132.08" y="113.03" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="GND21" gate="1" x="138.43" y="90.17" smashed="yes">
-<attribute name="VALUE" x="138.43" y="89.916" size="1.778" layer="96" align="top-center"/>
+<instance part="GND21" gate="1" x="138.43" y="92.71" smashed="yes">
+<attribute name="VALUE" x="138.43" y="92.456" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="109.22" y="123.19" smashed="yes">
-<attribute name="VALUE" x="109.22" y="125.984" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="109.22" y="135.89" smashed="yes">
+<attribute name="VALUE" x="109.22" y="138.684" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="JP1" gate="A" x="21.59" y="118.11" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.94" y="109.855" size="1.778" layer="95" rot="R180"/>
@@ -11790,15 +11799,15 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="GND22" gate="1" x="243.84" y="196.85" smashed="yes">
 <attribute name="VALUE" x="243.84" y="196.596" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="118.11" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="117.8814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="122.682" size="1.778" layer="96" rot="R180"/>
-<attribute name="LCSC" x="118.11" y="119.38" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="R5" gate="G$1" x="118.11" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="121.92" y="130.5814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="121.92" y="135.382" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="118.11" y="132.08" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="118.11" y="110.49" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="108.9914" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="113.792" size="1.778" layer="96" rot="R180"/>
-<attribute name="LCSC" x="118.11" y="110.49" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="R6" gate="G$1" x="118.11" y="123.19" smashed="yes" rot="R180">
+<attribute name="NAME" x="121.92" y="121.6914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="121.92" y="126.492" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="118.11" y="123.19" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U2" gate="G$1" x="44.45" y="175.26" smashed="yes">
 <attribute name="NAME" x="37.2872" y="190.4492" size="1.778" layer="95"/>
@@ -11850,6 +11859,11 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="13.97" y="184.15" smashed="yes">
 <attribute name="VALUE" x="13.97" y="186.944" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="118.11" y="102.87" smashed="yes" rot="R180">
+<attribute name="NAME" x="121.92" y="101.3714" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="121.92" y="106.172" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="118.11" y="102.87" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11986,9 +12000,13 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="138.43" y1="92.71" x2="138.43" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="95.25" x2="138.43" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="138.43" y1="100.33" x2="135.89" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="102.87" x2="138.43" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="113.03" x2="135.89" y2="113.03" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="123.19" y1="102.87" x2="138.43" y2="102.87" width="0.1524" layer="91"/>
+<junction x="138.43" y="102.87"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="113.03" x2="72.39" y2="113.03" width="0.1524" layer="91"/>
@@ -12127,17 +12145,17 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="100.33" x2="109.22" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="113.03" x2="109.22" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
-<wire x1="109.22" y1="100.33" x2="109.22" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="110.49" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="119.38" x2="109.22" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="113.03" x2="109.22" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="123.19" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="132.08" x2="109.22" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="110.49" x2="109.22" y2="110.49" width="0.1524" layer="91"/>
-<junction x="109.22" y="110.49"/>
+<wire x1="113.03" y1="123.19" x2="109.22" y2="123.19" width="0.1524" layer="91"/>
+<junction x="109.22" y="123.19"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
-<junction x="109.22" y="119.38"/>
+<wire x1="113.03" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
+<junction x="109.22" y="132.08"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
@@ -12248,6 +12266,11 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="304.8" y1="134.62" x2="304.8" y2="128.27" width="0.1524" layer="91"/>
 <label x="304.8" y="128.27" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="113.03" y1="102.87" x2="109.22" y2="102.87" width="0.1524" layer="91"/>
+<label x="109.22" y="102.87" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -12257,8 +12280,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="123.19" y1="110.49" x2="128.27" y2="110.49" width="0.1524" layer="91"/>
-<label x="128.27" y="110.49" size="1.27" layer="95" xref="yes"/>
+<wire x1="123.19" y1="123.19" x2="128.27" y2="123.19" width="0.1524" layer="91"/>
+<label x="128.27" y="123.19" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -12269,8 +12292,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="123.19" y1="119.38" x2="128.27" y2="119.38" width="0.1524" layer="91"/>
-<label x="128.27" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="123.19" y1="132.08" x2="128.27" y2="132.08" width="0.1524" layer="91"/>
+<label x="128.27" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
@@ -12449,7 +12472,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="128.27" y1="100.33" x2="123.19" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="113.03" x2="123.19" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_P" class="0">
