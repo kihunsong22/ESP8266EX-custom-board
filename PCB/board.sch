@@ -11540,6 +11540,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </spice>
 <attribute name="LCSC" value="C16133"/>
 </part>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11847,6 +11848,9 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <attribute name="VALUE" x="162.433" y="249.4026" size="1.778" layer="96"/>
 <attribute name="LCSC" x="161.29" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="SUPPLY6" gate="G$1" x="13.97" y="184.15" smashed="yes">
+<attribute name="VALUE" x="13.97" y="186.944" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12150,6 +12154,12 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="80.01" y1="181.61" x2="80.01" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="80.01" y1="184.15" x2="63.5" y2="184.15" width="0.1524" layer="91"/>
 <junction x="63.5" y="184.15"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="13.97" y1="184.15" x2="13.97" y2="176.53" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="V3"/>
+<wire x1="31.75" y1="176.53" x2="13.97" y2="176.53" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
