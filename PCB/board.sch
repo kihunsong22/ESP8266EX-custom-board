@@ -9970,49 +9970,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </library>
 <library name="angrypig7-IC">
 <packages>
-<package name="ESP8266EX">
-<smd name="EXT_RSTB" x="-1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="RES12K" x="-1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDA$2" x="-0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDD" x="-0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XTAL_IN" x="0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XTAL_OUT" x="0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="U0TXD" x="1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="U0RXD" x="1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GND" x="0" y="0" dx="3.45" dy="3.45" layer="1"/>
-<smd name="MTMS" x="-1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTDI" x="-1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDPST" x="-0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTCK" x="-0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTDO" x="0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO2" x="0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO0" x="1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO4" x="1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XPD_DCDC" x="-2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="CHIP_EN" x="-2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="TOUT" x="-2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD_RTC" x="-2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD3P3$2" x="-2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD3P3" x="-2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="LNA" x="-2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDDA" x="-2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDDPST$2" x="2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_2" x="2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_3" x="2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_CMD" x="2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_CLK" x="2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_0" x="2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_1" x="2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="GPOIO5" x="2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<wire x1="-2.6" y1="-2.1" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.1" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-2.6" x2="2.6" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.1" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="2.1" x2="-2.1" y2="2.6" width="0.127" layer="21"/>
-<text x="0" y="3.154" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="SOIC-8_208MIL">
 <description>&lt;b&gt;W25Q32JVSSIQ TR-&lt;/b&gt;&lt;br&gt;
 </description>
@@ -10078,46 +10035,6 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="ESP8266EX">
-<pin name="VDDA" x="-30.48" y="7.62" visible="pin" length="middle"/>
-<pin name="LNA" x="-30.48" y="5.08" visible="pin" length="middle"/>
-<pin name="VDD3P3" x="-30.48" y="2.54" visible="pin" length="middle"/>
-<pin name="VDD3P3$2" x="-30.48" y="0" visible="pin" length="middle"/>
-<pin name="VDD_RTC" x="-30.48" y="-2.54" visible="pin" length="middle"/>
-<pin name="TOUT" x="-30.48" y="-5.08" visible="pin" length="middle"/>
-<pin name="CHIP_EN" x="-30.48" y="-7.62" visible="pin" length="middle"/>
-<pin name="XPD_DCDC" x="-30.48" y="-10.16" visible="pin" length="middle"/>
-<pin name="MTMS" x="-7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="MTDI" x="-5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="VDDPST" x="-2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="MTCK" x="0" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="MTDO" x="2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="GPIO2" x="5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="GPIO0" x="7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="GPIO4" x="10.16" y="-27.94" visible="pin" length="middle" rot="R90"/>
-<pin name="VDDPST$2" x="33.02" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_DATA_2" x="33.02" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_DATA_3" x="33.02" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_CMD" x="33.02" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_CLK" x="33.02" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_DATA_0" x="33.02" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="SD_DATA_1" x="33.02" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO5" x="33.02" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="U0RXD" x="10.16" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="U0TXD" x="7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="XTAL_OUT" x="5.08" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="XTAL_IN" x="2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="VDDD" x="0" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="VDDA$2" x="-2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="RES12K" x="-5.08" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="EXT_RSTB" x="-7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="GND" x="-15.24" y="27.94" visible="pin" length="middle" rot="R270"/>
-<wire x1="-25.4" y1="22.86" x2="-25.4" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-22.86" x2="27.94" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
-<wire x1="27.94" y1="22.86" x2="-25.4" y2="22.86" width="0.254" layer="94"/>
-<text x="0" y="0" size="1.778" layer="94" align="bottom-center">EXP8266EX</text>
-</symbol>
 <symbol name="W25Q32JVSSIQ">
 <wire x1="-12.7" y1="6.35" x2="12.7" y2="6.35" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-6.35" x2="12.7" y2="6.35" width="0.254" layer="94"/>
@@ -10160,53 +10077,6 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP8266EX" prefix="U">
-<gates>
-<gate name="G$1" symbol="ESP8266EX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ESP8266EX">
-<connects>
-<connect gate="G$1" pin="CHIP_EN" pad="CHIP_EN"/>
-<connect gate="G$1" pin="EXT_RSTB" pad="EXT_RSTB"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
-<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
-<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
-<connect gate="G$1" pin="GPIO5" pad="GPOIO5"/>
-<connect gate="G$1" pin="LNA" pad="LNA"/>
-<connect gate="G$1" pin="MTCK" pad="MTCK"/>
-<connect gate="G$1" pin="MTDI" pad="MTDI"/>
-<connect gate="G$1" pin="MTDO" pad="MTDO"/>
-<connect gate="G$1" pin="MTMS" pad="MTMS"/>
-<connect gate="G$1" pin="RES12K" pad="RES12K"/>
-<connect gate="G$1" pin="SD_CLK" pad="SD_CLK"/>
-<connect gate="G$1" pin="SD_CMD" pad="SD_CMD"/>
-<connect gate="G$1" pin="SD_DATA_0" pad="SD_DATA_0"/>
-<connect gate="G$1" pin="SD_DATA_1" pad="SD_DATA_1"/>
-<connect gate="G$1" pin="SD_DATA_2" pad="SD_DATA_2"/>
-<connect gate="G$1" pin="SD_DATA_3" pad="SD_DATA_3"/>
-<connect gate="G$1" pin="TOUT" pad="TOUT"/>
-<connect gate="G$1" pin="U0RXD" pad="U0RXD"/>
-<connect gate="G$1" pin="U0TXD" pad="U0TXD"/>
-<connect gate="G$1" pin="VDD3P3" pad="VDD3P3"/>
-<connect gate="G$1" pin="VDD3P3$2" pad="VDD3P3$2"/>
-<connect gate="G$1" pin="VDDA" pad="VDDA"/>
-<connect gate="G$1" pin="VDDA$2" pad="VDDA$2"/>
-<connect gate="G$1" pin="VDDD" pad="VDDD"/>
-<connect gate="G$1" pin="VDDPST" pad="VDDPST"/>
-<connect gate="G$1" pin="VDDPST$2" pad="VDDPST$2"/>
-<connect gate="G$1" pin="VDD_RTC" pad="VDD_RTC"/>
-<connect gate="G$1" pin="XPD_DCDC" pad="XPD_DCDC"/>
-<connect gate="G$1" pin="XTAL_IN" pad="XTAL_IN"/>
-<connect gate="G$1" pin="XTAL_OUT" pad="XTAL_OUT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="W25Q32JVSSIQ" prefix="IC">
 <gates>
 <gate name="G$1" symbol="W25Q32JVSSIQ" x="0" y="0"/>
@@ -11231,6 +11101,144 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="angrypig7-IC-MCU">
+<packages>
+<package name="ESP8266EX">
+<smd name="EXT_RSTB" x="-1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="RES12K" x="-1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDA$2" x="-0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDD" x="-0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XTAL_IN" x="0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XTAL_OUT" x="0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="U0TXD" x="1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="U0RXD" x="1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GND" x="0" y="0" dx="3.45" dy="3.45" layer="1"/>
+<smd name="MTMS" x="-1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTDI" x="-1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDPST" x="-0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTCK" x="-0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTDO" x="0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO2" x="0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO0" x="1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO4" x="1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XPD_DCDC" x="-2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="CHIP_EN" x="-2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="TOUT" x="-2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD_RTC" x="-2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD3P3$2" x="-2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD3P3" x="-2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="LNA" x="-2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDDA" x="-2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDDPST$2" x="2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_2" x="2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_3" x="2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_CMD" x="2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_CLK" x="2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_0" x="2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_1" x="2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="GPOIO5" x="2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<wire x1="-2.6" y1="-2.1" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.1" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="2.1" x2="-2.1" y2="2.6" width="0.127" layer="21"/>
+<text x="0" y="3.154" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP8266EX">
+<pin name="VDDA" x="-30.48" y="7.62" visible="pin" length="middle"/>
+<pin name="LNA" x="-30.48" y="5.08" visible="pin" length="middle"/>
+<pin name="VDD3P3" x="-30.48" y="2.54" visible="pin" length="middle"/>
+<pin name="VDD3P3$2" x="-30.48" y="0" visible="pin" length="middle"/>
+<pin name="VDD_RTC" x="-30.48" y="-2.54" visible="pin" length="middle"/>
+<pin name="TOUT" x="-30.48" y="-5.08" visible="pin" length="middle"/>
+<pin name="CHIP_EN" x="-30.48" y="-7.62" visible="pin" length="middle"/>
+<pin name="XPD_DCDC" x="-30.48" y="-10.16" visible="pin" length="middle"/>
+<pin name="MTMS" x="-7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MTDI" x="-5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="VDDPST" x="-2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MTCK" x="0" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MTDO" x="2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="GPIO2" x="5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="GPIO0" x="7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="GPIO4" x="10.16" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="VDDPST$2" x="33.02" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_DATA_2" x="33.02" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_DATA_3" x="33.02" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_CMD" x="33.02" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_CLK" x="33.02" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_DATA_0" x="33.02" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="SD_DATA_1" x="33.02" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="33.02" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="U0RXD" x="10.16" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="U0TXD" x="7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="XTAL_OUT" x="5.08" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="XTAL_IN" x="2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="VDDD" x="0" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="VDDA$2" x="-2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="RES12K" x="-5.08" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="EXT_RSTB" x="-7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="GND" x="-15.24" y="27.94" visible="pin" length="middle" rot="R270"/>
+<wire x1="-25.4" y1="22.86" x2="-25.4" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-22.86" x2="27.94" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
+<wire x1="27.94" y1="22.86" x2="-25.4" y2="22.86" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="bottom-center">EXP8266EX</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP8266EX" prefix="U">
+<gates>
+<gate name="G$1" symbol="ESP8266EX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP8266EX">
+<connects>
+<connect gate="G$1" pin="CHIP_EN" pad="CHIP_EN"/>
+<connect gate="G$1" pin="EXT_RSTB" pad="EXT_RSTB"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPOIO5"/>
+<connect gate="G$1" pin="LNA" pad="LNA"/>
+<connect gate="G$1" pin="MTCK" pad="MTCK"/>
+<connect gate="G$1" pin="MTDI" pad="MTDI"/>
+<connect gate="G$1" pin="MTDO" pad="MTDO"/>
+<connect gate="G$1" pin="MTMS" pad="MTMS"/>
+<connect gate="G$1" pin="RES12K" pad="RES12K"/>
+<connect gate="G$1" pin="SD_CLK" pad="SD_CLK"/>
+<connect gate="G$1" pin="SD_CMD" pad="SD_CMD"/>
+<connect gate="G$1" pin="SD_DATA_0" pad="SD_DATA_0"/>
+<connect gate="G$1" pin="SD_DATA_1" pad="SD_DATA_1"/>
+<connect gate="G$1" pin="SD_DATA_2" pad="SD_DATA_2"/>
+<connect gate="G$1" pin="SD_DATA_3" pad="SD_DATA_3"/>
+<connect gate="G$1" pin="TOUT" pad="TOUT"/>
+<connect gate="G$1" pin="U0RXD" pad="U0RXD"/>
+<connect gate="G$1" pin="U0TXD" pad="U0TXD"/>
+<connect gate="G$1" pin="VDD3P3" pad="VDD3P3"/>
+<connect gate="G$1" pin="VDD3P3$2" pad="VDD3P3$2"/>
+<connect gate="G$1" pin="VDDA" pad="VDDA"/>
+<connect gate="G$1" pin="VDDA$2" pad="VDDA$2"/>
+<connect gate="G$1" pin="VDDD" pad="VDDD"/>
+<connect gate="G$1" pin="VDDPST" pad="VDDPST"/>
+<connect gate="G$1" pin="VDDPST$2" pad="VDDPST$2"/>
+<connect gate="G$1" pin="VDD_RTC" pad="VDD_RTC"/>
+<connect gate="G$1" pin="XPD_DCDC" pad="XPD_DCDC"/>
+<connect gate="G$1" pin="XTAL_IN" pad="XTAL_IN"/>
+<connect gate="G$1" pin="XTAL_OUT" pad="XTAL_OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CDESIGNER" value="Kihun Song"/>
@@ -11257,7 +11265,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="angrypig7-IC" deviceset="ESP8266EX" device="">
+<part name="U3" library="angrypig7-IC-MCU" deviceset="ESP8266EX" device="">
 <attribute name="LCSC" value="C77967"/>
 </part>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>

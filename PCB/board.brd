@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -381,49 +381,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </library>
 <library name="angrypig7-IC">
 <packages>
-<package name="ESP8266EX">
-<smd name="EXT_RSTB" x="-1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="RES12K" x="-1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDA$2" x="-0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDD" x="-0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XTAL_IN" x="0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XTAL_OUT" x="0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="U0TXD" x="1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="U0RXD" x="1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GND" x="0" y="0" dx="3.45" dy="3.45" layer="1"/>
-<smd name="MTMS" x="-1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTDI" x="-1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="VDDPST" x="-0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTCK" x="-0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="MTDO" x="0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO2" x="0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO0" x="1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="GPIO4" x="1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
-<smd name="XPD_DCDC" x="-2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="CHIP_EN" x="-2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="TOUT" x="-2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD_RTC" x="-2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD3P3$2" x="-2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDD3P3" x="-2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="LNA" x="-2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDDA" x="-2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="VDDPST$2" x="2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_2" x="2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_3" x="2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_CMD" x="2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_CLK" x="2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_0" x="2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="SD_DATA_1" x="2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<smd name="GPOIO5" x="2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
-<wire x1="-2.6" y1="-2.1" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.1" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-2.6" x2="2.6" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.1" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="2.1" x2="-2.1" y2="2.6" width="0.127" layer="21"/>
-<text x="0" y="3.154" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="SOIC-8_208MIL">
 <description>&lt;b&gt;W25Q32JVSSIQ TR-&lt;/b&gt;&lt;br&gt;
 </description>
@@ -680,6 +637,53 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </package>
 </packages>
 </library>
+<library name="angrypig7-IC-MCU">
+<packages>
+<package name="ESP8266EX">
+<smd name="EXT_RSTB" x="-1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="RES12K" x="-1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDA$2" x="-0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDD" x="-0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XTAL_IN" x="0.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XTAL_OUT" x="0.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="U0TXD" x="1.25" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="U0RXD" x="1.75" y="2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GND" x="0" y="0" dx="3.45" dy="3.45" layer="1"/>
+<smd name="MTMS" x="-1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTDI" x="-1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="VDDPST" x="-0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTCK" x="-0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="MTDO" x="0.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO2" x="0.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO0" x="1.25" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="GPIO4" x="1.75" y="-2.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="XPD_DCDC" x="-2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="CHIP_EN" x="-2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="TOUT" x="-2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD_RTC" x="-2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD3P3$2" x="-2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDD3P3" x="-2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="LNA" x="-2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDDA" x="-2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="VDDPST$2" x="2.4" y="-1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_2" x="2.4" y="-1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_3" x="2.4" y="-0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_CMD" x="2.4" y="-0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_CLK" x="2.4" y="0.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_0" x="2.4" y="0.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="SD_DATA_1" x="2.4" y="1.25" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="GPOIO5" x="2.4" y="1.75" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<wire x1="-2.6" y1="-2.1" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.1" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="2.1" x2="-2.1" y2="2.6" width="0.127" layer="21"/>
+<text x="0" y="3.154" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -896,7 +900,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="18" x="41.783" y="39.243" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="41.783" y="39.243" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U3" library="angrypig7-IC" package="ESP8266EX" value="ESP8266EX" x="14.492" y="19.685" smashed="yes" rot="R270">
+<element name="U3" library="angrypig7-IC-MCU" package="ESP8266EX" value="ESP8266EX" x="14.492" y="19.685" smashed="yes" rot="R270">
 <attribute name="LCSC" value="C77967" x="14.492" y="19.685" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.423" y="22.352" size="0.6096" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
@@ -1475,7 +1479,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U3" pad="GPIO2"/>
 <contactref element="R6" pad="1"/>
 <via x="10.922" y="18.796" extent="1-16" drill="0.2"/>
-<wire x1="6.985" y1="19.304" x2="6.9215" y2="19.2405" width="0.2032" layer="16"/>
 <via x="6.731" y="19.05" extent="1-16" drill="0.2"/>
 <wire x1="6.9215" y1="19.2405" x2="6.731" y2="19.05" width="0.2032" layer="16"/>
 <wire x1="6.731" y1="19.05" x2="6.469" y2="18.788" width="0.2032" layer="1"/>
